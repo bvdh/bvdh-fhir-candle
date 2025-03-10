@@ -11,6 +11,8 @@ using FhirCandle.Authorization.Models;
 using FhirCandle.Models;
 using FhirCandle.Smart;
 using FhirCandle.Utils;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.IdentityModel.Tokens;
 using Shouldly;
 using Xunit.Abstractions;
@@ -48,6 +50,7 @@ public class AuthorizationTests : IClassFixture<AuthorizationTestFixture>
         smartWellKnown.ShouldNotBeNull();
         smartWellKnown.GrantTypes.ShouldNotBeNullOrEmpty();
         smartWellKnown.GrantTypes.ShouldContain("authorization_code");
+        smartWellKnown.GrantTypes.ShouldContain("urn:ietf:params:oauth:grant-type:token-exchange");
         smartWellKnown.AuthorizationEndpoint.ShouldNotBeNullOrEmpty();
         smartWellKnown.TokenEndpoint.ShouldNotBeNullOrEmpty();
         smartWellKnown.TokenEndpointAuthMethods.ShouldNotBeNullOrEmpty();
@@ -58,6 +61,7 @@ public class AuthorizationTests : IClassFixture<AuthorizationTestFixture>
         smartWellKnown.SupportedResponseTypes.ShouldContain("code");
         smartWellKnown.SupportedResponseTypes.ShouldContain("id_token");
         smartWellKnown.Capabilities.ShouldNotBeNullOrEmpty();
+        smartWellKnown.Capabilities.ShouldContain("dual-launch-access"); // connectathon March 2025
         smartWellKnown.Capabilities.ShouldContain("launch-standalone");
         smartWellKnown.Capabilities.ShouldContain("client-public");
         smartWellKnown.Capabilities.ShouldContain("permission-v1");
@@ -98,6 +102,7 @@ public class AuthorizationTests : IClassFixture<AuthorizationTestFixture>
                 audience,
                 pkceChallenge,
                 pkceMethod,
+                null,
                 out string redirectDestination,
                 out string _);
 
@@ -144,6 +149,7 @@ public class AuthorizationTests : IClassFixture<AuthorizationTestFixture>
             _fixture.ConfigR4.BaseUrl,
             string.Empty,
             string.Empty,
+            null,
             out string redirectDestination,
             out string authKey).ShouldBeTrue();
 
@@ -162,6 +168,86 @@ public class AuthorizationTests : IClassFixture<AuthorizationTestFixture>
         auth.ShouldNotBeNull();
 
         // get the redirect
+
+        // set patient and practitioner
+        auth.LaunchPatient = launchPatient;
+        auth.LaunchPractitioner = launchPractitioner;
+
+        // authorize all scopes
+        foreach (string key in auth.Scopes.Keys)
+        {
+            auth.Scopes[key] = true;
+        }
+
+        // update auth
+        _fixture.AuthR4.TryUpdateAuth(_fixture.Name, authKey, auth).ShouldBeTrue();
+
+        // try to exchange the auth code for a token
+        _fixture.AuthR4.TryCreateSmartResponse(
+            _fixture.Name,
+            auth.AuthCode,
+            "clientId",
+            string.Empty,
+            string.Empty,
+            out AuthorizationInfo.SmartResponse response).ShouldBeTrue();
+
+        response.ShouldNotBeNull();
+
+        if (response == null)
+        {
+            return;
+        }
+
+        response.AccessToken.ShouldNotBeNullOrEmpty();
+    }
+
+    /// <summary>Tests token request.</summary>
+    /// <param name="launchPatient">     The launch patient.</param>
+    /// <param name="launchPractitioner">The launch practitioner.</param>
+    [Theory]
+    [InlineData("Patient/1", "")]
+    public void TestTokenRequestDualLaunch(
+        string launchPatient,
+        string launchPractitioner)
+    {
+        JwtHelper jwtHelper = new JwtHelper( "IJustLoveSmartOnFhirDebuggingWithLongKeys", new SmartClientManager(NullLoggerFactory.Instance.CreateLogger<SmartAuthorizationManager>()));
+        // string idToken = jwtHelper.GenerateIdJwt(
+        //     "http://iss", "sub", "userId", "audience", System.DateTime.Now, System.DateTime.Now.AddDays(1));
+        string idToken = jwtHelper.GenerateIdJwt(
+            _fixture.ConfigR4.BaseUrl, "sub", "userId", "audience", System.DateTime.Now, System.DateTime.Now.AddDays(1));
+
+        _fixture.AuthR4.RequestAuth(
+            _fixture.Name,
+            string.Empty,
+            "code",
+            "clientId",
+            "http://localhost/dev/null",
+            string.Empty,
+            "openid fhirUser profile launch/patient patient/*.read",
+            string.Empty,
+            _fixture.ConfigR4.BaseUrl,
+            string.Empty,
+            string.Empty,
+            idToken,
+            out string redirectDestination,
+            out string authKey).ShouldBeTrue();
+
+        redirectDestination.ShouldNotBeNullOrEmpty();
+
+        string queryAuthKey = redirectDestination.Substring(redirectDestination.IndexOf("key=") + 4);
+        authKey.ShouldNotBeNullOrEmpty();
+        queryAuthKey.ShouldNotBeNullOrEmpty();
+        authKey.ShouldBeEquivalentTo(queryAuthKey);
+
+        _fixture.AuthR4.TryGetAuthorization(
+            _fixture.Name,
+            authKey,
+            out AuthorizationInfo auth).ShouldBeTrue();
+
+        auth.ShouldNotBeNull();
+
+        // get the redirect
+        _fixture.AuthR4.TryGetClientRedirect(_fixture.Name, authKey, out string redirect, string.Empty, string.Empty).ShouldBeTrue();
 
         // set patient and practitioner
         auth.LaunchPatient = launchPatient;
@@ -316,13 +402,22 @@ public class AuthorizationTests : IClassFixture<AuthorizationTestFixture>
             return;
         }
 
-        string clientAssertion = _fixture.AuthR4.GenerateSignedJwt(
+        JwtHelper jwtHelper = new JwtHelper("seed", new SmartClientManager(NullLoggerFactory.Instance.CreateLogger<SmartAuthorizationManager>()));
+        string clientAssertion = jwtHelper.GenerateSignedJwt(
             iss,
             iss,
             _fixture.ConfigR4.BaseUrl,
             Guid.NewGuid().ToString(),
             DateTime.UtcNow.AddMinutes(10),
             signingKey);
+
+        // string clientAssertion = _fixture.AuthR4.GenerateSignedJwt(
+        //     iss,
+        //     iss,
+        //     _fixture.ConfigR4.BaseUrl,
+        //     Guid.NewGuid().ToString(),
+        //     DateTime.UtcNow.AddMinutes(10),
+        //     signingKey);
 
         clientAssertion.ShouldNotBeNullOrEmpty();
 

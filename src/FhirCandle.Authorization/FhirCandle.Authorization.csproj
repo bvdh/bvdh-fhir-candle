@@ -12,4 +12,8 @@
     <ProjectReference Include="..\FhirStore.Common\FhirCandle.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\R4\" />
+  </ItemGroup>
+
 </Project>

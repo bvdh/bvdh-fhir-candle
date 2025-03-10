@@ -20,12 +20,10 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
 {
     /// <summary>(Immutable) The jwt signing value.</summary>
     private const string _jwtSign = "***NotSecure!DoNotUseInProduction!ThisIsForDevOnly!***";
+    private JwtHelper _jwtHelper;
 
     /// <summary>(Immutable) The token expiration in minutes.</summary>
     private const int _tokenExpirationMinutes = 30;
-
-    /// <summary>(Immutable) The jwt signing value in bytes.</summary>
-    private static readonly byte[] _jwtBytes = System.Text.Encoding.UTF8.GetBytes(_jwtSign);
 
     /// <summary>True if has disposed, false if not.</summary>
     private bool _hasDisposed = false;
@@ -67,6 +65,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
         _serverConfig = serverConfiguration;
         _logger = logger ?? NullLoggerFactory.Instance.CreateLogger<SmartAuthorizationManager>();
         _clientManager = new SmartClientManager(_logger);
+        _jwtHelper = new JwtHelper(_jwtSign, _clientManager);
     }
 
     /// <summary>Gets a value indicating whether this object is enabled.</summary>
@@ -960,7 +959,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
                 TokenType = "bearer",
                 Scopes = string.Join(" ", permittedScopes),
                 ClientId = local.RequestParameters.ClientId,
-                IdToken = GenerateIdJwt(_tenants[tenant].BaseUrl, local),
+                IdToken = _jwtHelper.GenerateIdJwt(_tenants[tenant].BaseUrl, local),
                 AccessToken = code + "_" + code,
                 RefreshToken = code + "_" + code,
             };
@@ -979,7 +978,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
                 TokenType = "bearer",
                 Scopes = string.Join(" ", permittedScopes),
                 ClientId = local.RequestParameters.ClientId,
-                IdToken = GenerateIdJwt(_tenants[tenant].BaseUrl, local),
+                IdToken = _jwtHelper.GenerateIdJwt(_tenants[tenant].BaseUrl, local),
                 AccessToken = code + "_" + Guid.NewGuid().ToString(),    // GenerateAccessJwt(_tenants[tenant].BaseUrl, local),
                 RefreshToken = code + "_" + Guid.NewGuid().ToString()
             };
@@ -1072,7 +1071,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
             TokenType = "bearer",
             Scopes = string.Join(" ", scopes),
             ClientId = clientId,
-            IdToken = GenerateIdJwt(_tenants[tenantName].BaseUrl, clientId, clientId, expiration, _tenants[tenantName].BaseUrl),
+            IdToken = _jwtHelper.GenerateIdJwt(_tenants[tenantName].BaseUrl, clientId, clientId, expiration, _tenants[tenantName].BaseUrl),
             AccessToken = code + "_" + Guid.NewGuid().ToString(),    // GenerateAccessJwt(_tenants[tenant].BaseUrl, local),
             RefreshToken = code + "_" + Guid.NewGuid().ToString()
         };
@@ -1205,34 +1204,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
         }
     }
 
-    /// <summary>Generates an access-token jwt.</summary>
-    /// <param name="rootUrl">URL of the root.</param>
-    /// <param name="auth">   [out] The authentication.</param>
-    /// <returns>The jwt.</returns>
-    internal string GenerateAccessJwt(string rootUrl, AuthorizationInfo auth)
-    {
-        JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
-        SecurityTokenDescriptor tokenDescriptor = new()
-        {
-            Subject = new System.Security.Claims.ClaimsIdentity(new System.Security.Claims.Claim[]
-            {
-                new("sub", auth.UserId.GetHashCode().ToString()),
-                new("jti", Guid.NewGuid().ToString()),
-                //new("aud", auth.RequestParameters.Audience),
-                //new("iss", rootUrl),
-                //new("exp", auth.Expires.ToUnixTimeSeconds().ToString()),
-                //new("iat", auth.Created.ToUnixTimeSeconds().ToString()),
-            }),
-            Expires = auth.Expires.DateTime,
-            Audience = auth.RequestParameters.Audience,
-            Issuer = rootUrl,
-            IssuedAt = auth.LastAccessed.DateTime,
-            SigningCredentials = new(new SymmetricSecurityKey(_jwtBytes), SecurityAlgorithms.HmacSha256Signature),
-        };
 
-        SecurityToken token = tokenHandler.CreateToken(tokenDescriptor);
-        return tokenHandler.WriteToken(token);
-    }
 
     /// <summary>Attempts to introspection.</summary>
     /// <param name="tenant">  The tenant.</param>
@@ -1339,110 +1311,6 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
         return true;
     }
 
-    /// <summary>Generates a signed jwt.</summary>
-    /// <param name="issuer">    The issuer.</param>
-    /// <param name="subject">   The subject.</param>
-    /// <param name="audience">  URL of the EHR resource server from which the app wishes to retrieve
-    ///  FHIR data.</param>
-    /// <param name="expiration">The expiration Date/Time.</param>
-    /// <param name="webKey">    The web key.</param>
-    /// <param name="jti">       (Optional) The jti.</param>
-    /// <returns>The signed jwt.</returns>
-    public string GenerateSignedJwt(
-        string issuer,
-        string subject,
-        string audience,
-        string jti,
-        DateTime expiration,
-        JsonWebKey webKey)
-    {
-        JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
-        SecurityTokenDescriptor tokenDescriptor = new()
-        {
-            Subject = new System.Security.Claims.ClaimsIdentity(new System.Security.Claims.Claim[]
-            {
-                //new("iss", issuer),
-                new("sub", subject),
-                //new("aud", audience),
-                new("jti", jti),
-            }),
-            Expires = expiration,
-            Audience = audience,
-            Issuer = issuer,
-            IssuedAt = DateTime.UtcNow,
-        };
-
-        if ( _clientManager.TryProcessKey(issuer, webKey, out SecurityKey securityKey, out _))
-        {
-            tokenDescriptor.SigningCredentials = new SigningCredentials(securityKey, webKey.Alg);
-        }
-
-        SecurityToken token = tokenHandler.CreateToken(tokenDescriptor);
-        return tokenHandler.WriteToken(token);
-    }
-
-    /// <summary>Generates an id-token jwt.</summary>
-    /// <param name="rootUrl">URL of the root.</param>
-    /// <param name="auth">   [out] The authentication.</param>
-    /// <returns>The identifier jwt.</returns>
-    internal string GenerateIdJwt(string rootUrl, AuthorizationInfo auth)
-    {
-        JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
-        SecurityTokenDescriptor tokenDescriptor = new()
-        {
-            Subject = new System.Security.Claims.ClaimsIdentity(new System.Security.Claims.Claim[]
-            {
-                new("sub", auth.Key + "_" + Guid.NewGuid().ToString()),
-                new("profile", auth.UserId),
-                new("fhirUser", auth.UserId),
-                new("jti", Guid.NewGuid().ToString()),
-            }),
-            Expires = auth.Expires.DateTime,
-            Audience = auth.RequestParameters.Audience,
-            Issuer = rootUrl,
-            IssuedAt = auth.LastAccessed.DateTime,
-            SigningCredentials = new(new SymmetricSecurityKey(_jwtBytes), SecurityAlgorithms.HmacSha256Signature),
-        };
-
-        SecurityToken token = tokenHandler.CreateToken(tokenDescriptor);
-        return tokenHandler.WriteToken(token);
-    }
-
-    /// <summary>Generates an id-token jwt.</summary>
-    /// <param name="rootUrl"> URL of the root.</param>
-    /// <param name="subRoot"> The sub root.</param>
-    /// <param name="userId">  Identifier for the user.</param>
-    /// <param name="expires"> The expires Date/Time.</param>
-    /// <param name="audience">URL of the EHR resource server from which the app wishes to retrieve
-    ///  FHIR data.</param>
-    /// <returns>The identifier jwt.</returns>
-    internal string GenerateIdJwt(
-        string rootUrl,
-        string subRoot,
-        string userId,
-        DateTime expires,
-        string audience)
-    {
-        JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
-        SecurityTokenDescriptor tokenDescriptor = new()
-        {
-            Subject = new System.Security.Claims.ClaimsIdentity(new System.Security.Claims.Claim[]
-            {
-                new("sub", subRoot + "_" + Guid.NewGuid().ToString()),
-                new("profile", userId),
-                new("fhirUser", userId),
-                new("jti", Guid.NewGuid().ToString()),
-            }),
-            Expires = expires,
-            Audience = audience,
-            Issuer = rootUrl,
-            IssuedAt = DateTime.Now,
-            SigningCredentials = new(new SymmetricSecurityKey(_jwtBytes), SecurityAlgorithms.HmacSha256Signature),
-        };
-
-        SecurityToken token = tokenHandler.CreateToken(tokenDescriptor);
-        return tokenHandler.WriteToken(token);
-    }
 
     /// <summary>Initializes this service.</summary>
     /// <exception cref="Exception">Thrown when an exception error condition occurs.</exception>
@@ -1470,7 +1338,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
             {
                 GrantTypes = new string[]
                 {
-                    "authorization_code",
+                    "authorization_code", "urn:ietf:params:oauth:grant-type:token-exchange"
                 },
                 AuthorizationEndpoint = $"{_serverConfig.PublicUrl}/_smart/{name}/authorize",
                 TokenEndpoint = $"{_serverConfig.PublicUrl}/_smart/{name}/token",
@@ -1520,6 +1388,10 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
                 //RecovationEndpoint = $"{config.BaseUrl}/auth/revoke",
                 Capabilities = new string[]
                 {
+                    // TODO replace with more appropriate names.
+                    "smart-imaging-access",                     // Imaging Access using dual-launch token exchange
+                    "dual-launch-access",                       // Alternative for previous - signal support for dual access
+
                     //"launch-ehr",                             // SMART's EHR Launch mode
                     "launch-standalone",                        // SMART's Standalone Launch mode
                     //"authorize-post",                         // POST-based authorization
@@ -1580,7 +1452,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
                 TokenType = "bearer",
                 Scopes = "fhirUser profile user/*.*",
                 ClientId = "fhir-candle",
-                IdToken = GenerateIdJwt(auth.RequestParameters.Audience, auth),
+                IdToken = _jwtHelper.GenerateIdJwt(auth.RequestParameters.Audience, auth),
                 AccessToken = Guid.Empty.ToString() + "_" + Guid.Empty.ToString(),
                 RefreshToken = Guid.Empty.ToString() + "_" + Guid.Empty.ToString(),
             };
@@ -1612,21 +1484,19 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
     /// <param name="clientId">           The client's identifier.</param>
     /// <param name="redirectUri">        Must match one of the client's pre-registered redirect URIs.</param>
     /// <param name="launch">             When using the EHR Launch flow, this must match the launch
-    ///  value received from the EHR. Omitted when using the Standalone Launch.</param>
+    ///     value received from the EHR. Omitted when using the Standalone Launch.</param>
     /// <param name="scope">              Must describe the access that the app needs.</param>
     /// <param name="state">              An opaque value used by the client to maintain state between
-    ///  the request and callback.</param>
+    ///     the request and callback.</param>
     /// <param name="audience">           URL of the EHR resource server from which the app wishes to
-    ///  retrieve FHIR data.</param>
-    /// <param name="pkceChallenge">      This parameter is generated by the app and used for the code
-    ///  challenge, as specified by PKCE. (required v2, opt v1)</param>
-    /// <param name="pkceMethod">         Method used for the code_challenge parameter. (required v2,
-    ///  opt v1)</param>
+    ///     retrieve FHIR data.</param>
+    /// <param name="pkceChallenge">      This parameter is generated by the app and used for the code challenge, as specified by PKCE. (required v2, opt v1)</param>
+    /// <param name="pkceMethod">         Method used for the code_challenge parameter. (required v2,  opt v1)</param>
+    /// <param name="idTokenHint">        ID token as hint for dual launch.</param>
     /// <param name="redirectDestination">[out] The redirect destination.</param>
     /// <param name="authKey">            [out] The authentication key.</param>
     /// <returns>True if it succeeds, false if it fails.</returns>
-    public bool RequestAuth(
-        string tenant,
+    public bool RequestAuth(string tenant,
         string remoteIpAddress,
         string responseType,
         string clientId,
@@ -1637,6 +1507,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
         string audience,
         string? pkceChallenge,
         string? pkceMethod,
+        string? idTokenHint,
         out string redirectDestination,
         out string authKey)
     {
@@ -1691,6 +1562,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
                 Scope = scope,
                 State = state,
                 Audience = audience,
+                IdTokenHint = idTokenHint,
                 PkceChallenge = pkceChallenge,
                 PkceMethod = pkceMethod,
             },
@@ -1700,10 +1572,161 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
         auth.AuthCode = auth.Key + "_" + Guid.NewGuid().ToString();
 
         _authorizations.Add(tenant + ":" + auth.Key, auth);
-
-        redirectDestination = $"/smart/login?store={tenant}&key={auth.Key}";
         authKey = auth.Key;
+
+        if (string.IsNullOrEmpty(idTokenHint))
+        {
+            redirectDestination = $"/smart/login?store={tenant}&key={auth.Key}";
+            return true;
+        }
+
+        // parse id token hint
+        if (!_jwtHelper.ParseIdToken(idTokenHint, out SecurityToken? token))
+        {
+            redirectDestination = string.Empty;
+            return false;
+        }
+
+        string tokenIss = token.Issuer;
+
+        if (tokenIss.Equals(audience))
+        {
+            // redirect to this server - login as normal
+            redirectDestination = $"/smart/login?store={tenant}&key={auth.Key}";
+            return true;
+        }
+
+        // load well known endpoint
+        HttpClient client = new HttpClient();
+        string wellKnownUrl = $"{tokenIss}/.well-known/smart-configuration";
+        SmartWellKnown? wellKnownResponse;
+        try
+        {
+            wellKnownResponse =
+                client.GetFromJsonAsync<SmartWellKnown>(wellKnownUrl).GetAwaiter().GetResult();
+        }
+        catch (Exception e)
+        {
+            redirectDestination = string.Empty;
+            return false;
+        }
+
+        if ( wellKnownResponse == null)
+        {
+            redirectDestination = string.Empty;
+            return false;
+        }
+        auth.EhrLaunch = new AuthorizationInfo.EhrLaunchData( tokenIss, wellKnownResponse );
+
+        string authorizeEndpoint = wellKnownResponse.AuthorizationEndpoint;
+        redirectDestination = authorizeEndpoint + (authorizeEndpoint.Contains('?') ? "&" : "?") +
+                               "response_type=code" +
+                              $"&client_id={clientId}" +
+                               "&redirect_uri=/smart/ehr_redirect" +
+                              $"&state={tenant + ":" + auth.Key}" +
+                              $"&id_tokent_hint={idTokenHint}" +
+                               "&prompt=none" +
+                              $"&aud={tokenIss}" +
+                              $"&scope={scope}";
         return true;
+    }
+
+    public bool TryEhrRedirect(string storeName, string code, string state, out string redirect )
+    {
+        if (!_authorizations.TryGetValue(storeName + ":" + state, out AuthorizationInfo? auth))
+        {
+            _logger.LogWarning($"EHR redirect with {state} not found.");
+            redirect = "";
+            return false;
+        }
+
+        // get token
+        // load well known endpoint
+        HttpClient client = new HttpClient();
+        string tokenUrl = auth.EhrLaunch.SmartWellKnown.TokenEndpoint;
+        string url = tokenUrl + (tokenUrl.Contains('?') ? "&" : "?") +
+                     "grant_type=authorization_code" +
+                     $"&code={code}" +
+                     "&redirect_uri=/smart/ehr_redirect";
+
+
+        TokenResponse? tokenResponse;
+        try
+        {
+            tokenResponse =
+                client.GetFromJsonAsync<TokenResponse>(url).GetAwaiter().GetResult();
+        }
+        catch (Exception e)
+        {
+            redirect = "";
+            return false;
+        }
+
+        // update our last access
+        auth.LastAccessed = DateTimeOffset.UtcNow;
+
+        // GET patient and User
+        string? patient;
+        string? user;
+
+        // FhirClient fhirClient;
+        try
+        {
+            tokenResponse =
+                client.GetFromJsonAsync<TokenResponse>(url).GetAwaiter().GetResult();
+        }
+        catch (Exception e)
+        {
+            redirect = "";
+            return false;
+        }
+
+        // GET
+
+    //     // create our response
+    //     local.Response = new()
+    //     {
+    //         PatientId = local.LaunchPatient,
+    //         FhirContext = fhirContext.Any() ? fhirContext : null,
+    //         TokenType = "bearer",
+    //         Scopes = string.Join(" ", permittedScopes),
+    //         ClientId = local.RequestParameters.ClientId,
+    //         IdToken = _jwtHelper.GenerateIdJwt(_tenants[tenant].BaseUrl, local),
+    //         AccessToken = code + "_" + code,
+    //         RefreshToken = code + "_" + code,
+    //     };
+    // }
+    // else
+    // {
+    //     // update our last access and expiration
+    //     local.LastAccessed = DateTimeOffset.UtcNow;
+    //     local.Expires = DateTimeOffset.UtcNow.AddMinutes(_tokenExpirationMinutes);
+    //
+    //     // create our response
+    //     local.Response = new()
+    //     {
+    //         PatientId = local.LaunchPatient,
+    //         FhirContext = fhirContext.Any() ? fhirContext : null,
+    //         TokenType = "bearer",
+    //         Scopes = string.Join(" ", permittedScopes),
+    //         ClientId = local.RequestParameters.ClientId,
+    //         IdToken = _jwtHelper.GenerateIdJwt(_tenants[tenant].BaseUrl, local),
+    //         AccessToken = code + "_" + Guid.NewGuid().ToString(),    // GenerateAccessJwt(_tenants[tenant].BaseUrl, local),
+    //         RefreshToken = code + "_" + Guid.NewGuid().ToString()
+    //     };
+    // }
+    //
+    // local.Activity.Add(new()
+    // {
+    //     RequestType = "authorization_code",
+    //     Success = true,
+    //     Message = $"Granted access token: {local.Response.AccessToken}, refresh token: {local.Response.RefreshToken}"
+    // });
+    //
+    // response = local.Response!;
+    // return true;
+        redirect = "";
+        return false;
     }
 
 

@@ -97,6 +97,7 @@ public class SmartController : ControllerBase
         [FromQuery(Name = "candle_auth_bypass")] string? queryAuthBypass,
         [FromQuery(Name = "candle_patient")] string? queryPatient,
         [FromQuery(Name = "candle_practitioner")] string? queryPractitioner,
+        [FromQuery(Name = "id_token_hint")] string? idTokenHint,
         [FromHeader(Name = "candle-auth-bypass")] string? headerAuthBypass,
         [FromHeader(Name = "candle-patient")] string? headerPatient,
         [FromHeader(Name = "candle-practitioner")] string? headerPractitioner)
@@ -113,6 +114,7 @@ public class SmartController : ControllerBase
                 audience,
                 pkceChallenge,
                 pkceMethod,
+                idTokenHint,
                 out string redirectDestination,
                 out string authKey))
         {
@@ -181,6 +183,21 @@ public class SmartController : ControllerBase
         Response.Redirect(redirectDestination);
     }
 
+    [HttpGet, Route("{storeName}/ehr_redirect")]
+    public void RedirectFromEhr(
+        [FromRoute] string storeName,
+        [FromQuery] string code,
+        [FromQuery] string state
+    )
+    {
+        if (_smartAuthorizationManager.TryEhrRedirect(storeName, code, state, out string redirect))
+        {
+            Response.Redirect(redirect);
+        }
+
+        _logger.LogWarning($"EHR redirect failed!");
+        Response.StatusCode = 404;
+    }
     /// <summary>
     /// (An Action that handles HTTP POST requests) posts a smart token request.
     /// </summary>

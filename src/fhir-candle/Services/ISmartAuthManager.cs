@@ -51,7 +51,7 @@ public interface ISmartAuthManager : IHostedService
     /// <returns>True if authorized, false if not.</returns>
     bool IsAuthorized(FhirRequestContext ctx);
 
-    /// <summary>Attempts to update authentication.</summary>
+    /// <summary>Attempts to update authentication (return from user selection).</summary>
     /// <param name="tenant">The tenant name.</param>
     /// <param name="key">   The key.</param>
     /// <param name="auth">  [out] The authentication.</param>
@@ -66,8 +66,8 @@ public interface ISmartAuthManager : IHostedService
     /// <param name="errorDescription"></param>
     /// <returns>True if it succeeds, false if it fails.</returns>
     bool TryGetClientRedirect(
-        string tenant, 
-        string key, 
+        string tenant,
+        string key,
         out string redirect,
         string error = "",
         string errorDescription = "");
@@ -81,8 +81,8 @@ public interface ISmartAuthManager : IHostedService
     /// <param name="response">    [out] The response.</param>
     /// <returns>True if it succeeds, false if it fails.</returns>
     bool TryCreateSmartResponse(
-        string tenant, 
-        string authCode, 
+        string tenant,
+        string authCode,
         string clientId,
         string clientSecret,
         string codeVerifier,

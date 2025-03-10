@@ -23,7 +23,7 @@ public class AuthCompartmentTests: IDisposable
     private readonly ITestOutputHelper _testOutputHelper;
 
     /// <summary>
-    /// Initializes a new instance of the <see cref="FhirStoreTestsR4B"/> class.
+    /// Initializes a new instance of the <see cref="AuthCompartmentTests"/> class.
     /// </summary>
     /// <param name="testOutputHelper">The test output helper.</param>
     public AuthCompartmentTests(ITestOutputHelper testOutputHelper)
