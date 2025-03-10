@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <TargetFrameworks />
+  </PropertyGroup>
+
+  <Import Project="..\..\fhir-candle.props" />
+
+  <ItemGroup>
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.4.0" />
+    <ProjectReference Include="..\FhirStore.Common\FhirCandle.Common.csproj" />
+  </ItemGroup>
+
+</Project>
