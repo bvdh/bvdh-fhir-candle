@@ -8,7 +8,7 @@ using FhirCandle.Authorization.Models;
 namespace FhirCandle.Models;
 
 /// <summary>Information about the client.</summary>
-public class ClientInfo
+public class SmartClientInfo
 {
     /// <summary>Information about the authentication activity.</summary>
     public readonly record struct ClientActivityRecord

@@ -21,21 +21,21 @@ namespace fhir.candle.Controllers;
 [Produces("application/json")]
 public class SmartController : ControllerBase
 {
-    private ISmartAuthManager _smartAuthManager;
+    private ISmartAuthorizationManager _smartAuthorizationManager;
 
-    private ILogger<ISmartAuthManager> _logger;
+    private ILogger<ISmartAuthorizationManager> _logger;
 
     /// <summary>
     /// Initializes a new instance of the <see cref="SmartController"/> class.
     /// </summary>
-    /// <param name="smartAuthManager"></param>
+    /// <param name="smartAuthorizationManager"></param>
     /// <param name="logger"></param>
     /// <exception cref="ArgumentNullException">Thrown when one or more required arguments are null.</exception>
     public SmartController(
-        [FromServices] ISmartAuthManager smartAuthManager,
-        [FromServices] ILogger<ISmartAuthManager> logger)
+        [FromServices] ISmartAuthorizationManager smartAuthorizationManager,
+        [FromServices] ILogger<ISmartAuthorizationManager> logger)
     {
-        _smartAuthManager = smartAuthManager ?? throw new ArgumentNullException(nameof(smartAuthManager));
+        _smartAuthorizationManager = smartAuthorizationManager ?? throw new ArgumentNullException(nameof(smartAuthorizationManager));
         _logger = logger;
     }
 
@@ -47,7 +47,7 @@ public class SmartController : ControllerBase
         [FromRoute] string storeName)
     {
         // make sure this store exists and has SMART enabled
-        if (!_smartAuthManager.SmartConfigurationByTenant.TryGetValue(
+        if (!_smartAuthorizationManager.SmartConfigurationByTenant.TryGetValue(
                 storeName,
                 out SmartWellKnown? smartConfig))
         {
@@ -101,7 +101,7 @@ public class SmartController : ControllerBase
         [FromHeader(Name = "candle-patient")] string? headerPatient,
         [FromHeader(Name = "candle-practitioner")] string? headerPractitioner)
     {
-        if (!_smartAuthManager.RequestAuth(
+        if (!_smartAuthorizationManager.RequestAuth(
                 storeName,
                 Request.HttpContext.Connection.RemoteIpAddress?.ToString() ?? string.Empty,
                 responseType,
@@ -125,7 +125,7 @@ public class SmartController : ControllerBase
 
         if (!string.IsNullOrEmpty(bypassType.ToLowerInvariant()))
         {
-            _ = _smartAuthManager.TryGetAuthorization(storeName, authKey, out AuthorizationInfo auth);
+            _ = _smartAuthorizationManager.TryGetAuthorization(storeName, authKey, out AuthorizationInfo auth);
 
             string patient = queryPatient ?? headerPatient ?? string.Empty;
             string practitioner = queryPractitioner ?? headerPractitioner ?? string.Empty;
@@ -159,7 +159,7 @@ public class SmartController : ControllerBase
             }
 
             // perform login step
-            _ = _smartAuthManager.TryUpdateAuth(storeName, authKey, auth);
+            _ = _smartAuthorizationManager.TryUpdateAuth(storeName, authKey, auth);
 
             // approve all scopes
             foreach (string scopeKey in auth.Scopes.Keys)
@@ -168,10 +168,10 @@ public class SmartController : ControllerBase
             }
 
             // perform authorization step
-            _ = _smartAuthManager.TryUpdateAuth(storeName, authKey, auth);
+            _ = _smartAuthorizationManager.TryUpdateAuth(storeName, authKey, auth);
 
             // redirect back to client
-            if (_smartAuthManager.TryGetClientRedirect(storeName, authKey, out string redirect))
+            if (_smartAuthorizationManager.TryGetClientRedirect(storeName, authKey, out string redirect))
             {
                 Response.Redirect(redirect);
                 return;
@@ -195,7 +195,7 @@ public class SmartController : ControllerBase
         [FromHeader(Name = "Authorization")] string? authHeader = null)
     {
         // make sure this store exists and has SMART enabled
-        if (!_smartAuthManager.SmartConfigurationByTenant.TryGetValue(
+        if (!_smartAuthorizationManager.SmartConfigurationByTenant.TryGetValue(
                 storeName,
                 out SmartWellKnown? smartConfig))
         {
@@ -279,7 +279,7 @@ public class SmartController : ControllerBase
             {
                 case "authorization_code":
                     {
-                        if (!_smartAuthManager.TryCreateSmartResponse(
+                        if (!_smartAuthorizationManager.TryCreateSmartResponse(
                                 storeName,
                                 authCode,
                                 clientId,
@@ -296,7 +296,7 @@ public class SmartController : ControllerBase
 
                 case "refresh_token":
                     {
-                        if (!_smartAuthManager.TrySmartRefresh(
+                        if (!_smartAuthorizationManager.TrySmartRefresh(
                                 storeName,
                                 refreshToken,
                                 clientId,
@@ -311,7 +311,7 @@ public class SmartController : ControllerBase
 
                 case "client_credentials":
                     {
-                        if (!_smartAuthManager.TryClientAssertionExchange(
+                        if (!_smartAuthorizationManager.TryClientAssertionExchange(
                                 storeName,
                                 Request.HttpContext.Connection.RemoteIpAddress?.ToString() ?? string.Empty,
                                 clientAssertionType,
@@ -370,7 +370,7 @@ public class SmartController : ControllerBase
         [FromHeader(Name = "Authorization")] string? authHeader = null)
     {
         // make sure this store exists and has SMART enabled
-        if (!_smartAuthManager.SmartConfigurationByTenant.TryGetValue(
+        if (!_smartAuthorizationManager.SmartConfigurationByTenant.TryGetValue(
                 storeName,
                 out SmartWellKnown? smartConfig))
         {
@@ -402,7 +402,7 @@ public class SmartController : ControllerBase
                 smartClientRegistration.KeySet = clientKeySet;
 
                 // operation
-                bool success = _smartAuthManager.TryRegisterClient(
+                bool success = _smartAuthorizationManager.TryRegisterClient(
                     smartClientRegistration,
                     out string clientId,
                     out List<string> messages);
@@ -451,7 +451,7 @@ public class SmartController : ControllerBase
         [FromRoute] string storeName)
     {
         // make sure this store exists and has SMART enabled
-        if (!_smartAuthManager.SmartConfigurationByTenant.TryGetValue(
+        if (!_smartAuthorizationManager.SmartConfigurationByTenant.TryGetValue(
                 storeName,
                 out SmartWellKnown? smartConfig))
         {
@@ -478,7 +478,7 @@ public class SmartController : ControllerBase
                 }
             }
 
-            if (!_smartAuthManager.TryIntrospection(
+            if (!_smartAuthorizationManager.TryIntrospection(
                     storeName,
                     token,
                     out AuthorizationInfo.IntrospectionResponse? resp))

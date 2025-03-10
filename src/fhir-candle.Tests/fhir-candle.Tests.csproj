@@ -28,6 +28,7 @@
 		<Content Include="xunit.runner.json" CopyToOutputDirectory="PreserveNewest" />
 	</ItemGroup>
 	<ItemGroup>
+		<ProjectReference Include="..\FhirCandle.Authorization\FhirCandle.Authorization.csproj" />
 		<ProjectReference Include="..\FhirCandle.Ui.R4\FhirCandle.Ui.R4.csproj" />
 		<ProjectReference Include="..\FhirStore.Common\FhirCandle.Common.csproj" />
 		<ProjectReference Include="..\fhir-candle\fhir-candle.csproj" />

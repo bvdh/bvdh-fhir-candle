@@ -25,7 +25,6 @@
     <Folder Include="$(MSBuildThisFileDirectory)Interactions\" />
     <Folder Include="$(MSBuildThisFileDirectory)Models\" />
     <Folder Include="$(MSBuildThisFileDirectory)Compartments\" />
-    <Folder Include="$(MSBuildThisFileDirectory)Operations\" />
     <Folder Include="$(MSBuildThisFileDirectory)Serialization\" />
     <Folder Include="$(MSBuildThisFileDirectory)Storage\" />
     <Folder Include="$(MSBuildThisFileDirectory)Search\" />

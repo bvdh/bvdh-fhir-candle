@@ -16,7 +16,7 @@ using AuthorizationInfo = FhirCandle.Authorization.Models.AuthorizationInfo;
 namespace FhirCandle.Authorization.Services;
 
 /// <summary>Manager for smart authentications.</summary>
-public class SmartAuthManager : ISmartAuthManager, IDisposable
+public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
 {
     /// <summary>(Immutable) The jwt signing value.</summary>
     private const string _jwtSign = "***NotSecure!DoNotUseInProduction!ThisIsForDevOnly!***";
@@ -58,14 +58,14 @@ public class SmartAuthManager : ISmartAuthManager, IDisposable
     /// <param name="tenants">            The tenants.</param>
     /// <param name="serverConfiguration">The server configuration.</param>
     /// <param name="logger">             The logger.</param>
-    public SmartAuthManager(
+    public SmartAuthorizationManager(
         Dictionary<string, TenantConfiguration> tenants,
         CandleConfig serverConfiguration,
-        ILogger<SmartAuthManager>? logger)
+        ILogger<SmartAuthorizationManager>? logger)
     {
         _tenants = tenants;
         _serverConfig = serverConfiguration;
-        _logger = logger ?? NullLoggerFactory.Instance.CreateLogger<SmartAuthManager>();
+        _logger = logger ?? NullLoggerFactory.Instance.CreateLogger<SmartAuthorizationManager>();
         _clientManager = new SmartClientManager(_logger);
     }
 
@@ -79,7 +79,7 @@ public class SmartAuthManager : ISmartAuthManager, IDisposable
     public Dictionary<string, AuthorizationInfo> SmartAuthorizations => _authorizations;
 
     /// <summary>Gets the clients.</summary>
-    public Dictionary<string, ClientInfo> SmartClients => _clientManager.SmartClients;
+    public Dictionary<string, SmartClientInfo> SmartClients => _clientManager.getSmartClients();
 
     /// <summary>Query if 'tenant' has tenant.</summary>
     /// <param name="tenant">The tenant.</param>
@@ -476,7 +476,7 @@ public class SmartAuthManager : ISmartAuthManager, IDisposable
     {
         var theClientId = "";
         var theMessages = new List<string>();
-        var result = _clientManager.TryRegisterClient(registration, theClientId, theMessages);
+        var result = _clientManager.TryRegisterClient(registration, out theClientId, out theMessages);
 
         clientId = theClientId;
         messages = theMessages;
@@ -1053,7 +1053,7 @@ public class SmartAuthManager : ISmartAuthManager, IDisposable
             return false;
         }
 
-        if (!_clientManager.TryClientAssertionExchange(clientAssertion, messages, tenant, out ClientInfo? smartClient))
+        if (!_clientManager.TryClientAssertionExchange(clientAssertion, messages, tenant, out SmartClientInfo? smartClient))
         {
             response = null;
             return false;

@@ -11,7 +11,7 @@ using AuthorizationInfo = FhirCandle.Authorization.Models.AuthorizationInfo;
 namespace FhirCandle.Authorization.Services;
 
 /// <summary>Interface for smart authentication manager.</summary>
-public interface ISmartAuthManager : IHostedService
+public interface ISmartAuthorizationManager : IHostedService
 {
     /// <summary>Initializes the FHIR Store Manager and tenants.</summary>
     void Init();
@@ -31,7 +31,7 @@ public interface ISmartAuthManager : IHostedService
     Dictionary<string, AuthorizationInfo> SmartAuthorizations { get; }
 
     /// <summary>Gets the clients.</summary>
-    Dictionary<string, ClientInfo> SmartClients { get; }
+    Dictionary<string, SmartClientInfo> SmartClients { get; }
 
     /// <summary>Attempts to get authorization.</summary>
     /// <param name="tenant">The tenant name.</param>

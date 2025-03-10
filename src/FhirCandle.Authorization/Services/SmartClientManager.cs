@@ -11,10 +11,13 @@ namespace FhirCandle.Authorization.Services
     public class SmartClientManager : ISmartClientManager
     {
         /// <summary>The smart clients.</summary>
-        private Dictionary<string, ClientInfo> _clients = new(StringComparer.Ordinal);
+        private Dictionary<string, SmartClientInfo> _clients = new(StringComparer.Ordinal);
 
         /// <summary>Gets the clients.</summary>
-        public Dictionary<string, ClientInfo> SmartClients => _clients;
+        public override Dictionary<string, SmartClientInfo> getSmartClients()
+        {
+             return _clients;
+        }
 
         /// <summary>The logger.</summary>
         private ILogger _logger;
@@ -22,7 +25,7 @@ namespace FhirCandle.Authorization.Services
 
         public SmartClientManager(ILogger logger)
         {
-            _logger = logger ?? NullLoggerFactory.Instance.CreateLogger<SmartAuthManager>();
+            _logger = logger ?? NullLoggerFactory.Instance.CreateLogger<SmartAuthorizationManager>();
         }
 
 
@@ -34,7 +37,7 @@ namespace FhirCandle.Authorization.Services
         /// <param name="clientId">    [out] The client's identifier.</param>
         /// <param name="messages">    [out] The messages.</param>
         /// <returns>True if it succeeds, false if it fails.</returns>
-        public override bool TryRegisterClient(SmartClientRegistration registration, string clientId, List<string> messages)
+        public override bool TryRegisterClient(SmartClientRegistration registration, out string clientId, out List<string> messages)
         {
             messages = new List<string>();
 
@@ -66,7 +69,7 @@ namespace FhirCandle.Authorization.Services
             //}
 
             // create our base client info
-            ClientInfo smartClient = new()
+            SmartClientInfo smartClient = new()
             {
                 ClientId = clientId, ClientName = clientName, Registration = registration,
             };
@@ -96,7 +99,7 @@ namespace FhirCandle.Authorization.Services
         /// <param name="jwksUrl">     (Optional) URL of the jwks.</param>
         private void ProcessKeys(
             string clientName,
-            ClientInfo smartClient,
+            SmartClientInfo smartClient,
             JsonWebKeySet keySet,
             List<string> messages,
             string? jwksUrl = null)
@@ -356,7 +359,7 @@ namespace FhirCandle.Authorization.Services
 
         public override bool TryClientAssertionExchange(string clientAssertion,
             List<string> messages, TenantConfiguration tenant,
-            out ClientInfo? smartClient )
+            out SmartClientInfo? smartClient )
         {
             JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
             smartClient = null;
