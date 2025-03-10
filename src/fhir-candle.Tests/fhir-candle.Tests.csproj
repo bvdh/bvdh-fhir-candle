@@ -4,6 +4,8 @@
 	<PropertyGroup>
       <IsPackable>false</IsPackable>
       <RootNamespace>fhir.candle.Tests</RootNamespace>
+      <TargetFramework>net9.0</TargetFramework>
+      <TargetFrameworks />
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />

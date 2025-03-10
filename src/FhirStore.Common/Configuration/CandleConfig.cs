@@ -22,7 +22,7 @@ namespace FhirCandle.Configuration;
 public class CandleConfig
 {
     /// <summary>(Immutable) The default listen port.</summary>
-    private const int _defaultListenPort = 5826;
+    private const string _defaultListenPort = "5826";
 
     /// <summary>Gets or sets URL of the public.</summary>
     [ConfigOption(
@@ -49,7 +49,7 @@ public class CandleConfig
         ArgName = "--port",
         EnvName = "Listen_Port",
         Description = "TCP port to listen on")]
-    public int ListenPort { get; set; } = _defaultListenPort;
+    public string ListenPort { get; set; } = _defaultListenPort;
 
     /// <summary>Gets the listen port option.</summary>
     private static ConfigurationOption ListenPortParameter { get; } = new()
@@ -985,10 +985,26 @@ public class CandleConfig
 
         object? parsed = pr.GetValueForOption(opt);
 
-        if ((parsed != null) &&
-            (parsed is T typed))
+        if (parsed == null)
+        {
+            return defaultValue;
+        }
+
+        // check if types are the same
+        if (parsed is T typed)
         {
             return typed;
+        }
+        // for commandline parameters this not always works, check for string
+        // explicitly and try to convert
+        else
+        if (typeof(T) == typeof(string))
+        {
+            string str = parsed.ToString();
+            if (str is T typed2)
+            {
+                return typed2;
+            }
         }
 
         return defaultValue;

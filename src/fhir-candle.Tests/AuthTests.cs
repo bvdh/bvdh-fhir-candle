@@ -99,7 +99,7 @@ public class AuthTests : IClassFixture<AuthTestFixture>
                 out string _);
 
         success.ShouldBe(expectSuccess);
-        
+
         // stop testing if we failed, regardless of expectation
         if (!success)
         {
@@ -175,7 +175,7 @@ public class AuthTests : IClassFixture<AuthTestFixture>
 
         // try to exchange the auth code for a token
         _fixture.AuthR4.TryCreateSmartResponse(
-            _fixture.Name, 
+            _fixture.Name,
             auth.AuthCode,
             "clientId",
             string.Empty,
@@ -372,11 +372,11 @@ public class AuthTestFixture
         };
 
         AuthR4 = new SmartAuthManager(
-            Tenants, 
+            Tenants,
             new()
             {
                 PublicUrl = "http://localhost:5826/fhir/r4",
-                ListenPort = 5826,
+                ListenPort = "5826",
                 OpenBrowser = false,
                 TenantsR4 = [ Name ],
                 SmartRequiredTenants = [ Name ],

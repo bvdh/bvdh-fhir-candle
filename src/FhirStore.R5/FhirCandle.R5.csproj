@@ -1,4 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+	  <TargetFramework>net9.0</TargetFramework>
+	  <TargetFrameworks />
+	</PropertyGroup>
 	<Import Project="..\..\fhir-candle.props" />
 
 	<Import Project="..\FhirStore.CommonVersioned\FhirStore.CommonVersioned.projitems" Label="Shared" />

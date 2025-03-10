@@ -7,14 +7,19 @@
 
 <FluentStack Orientation="Orientation.Vertical" VerticalGap="8">
     <FluentLabel Typo="Typography.H6">@ResourceType Resources</FluentLabel>
-    
+
     @* <FluentLabel>Selected Ids: @(string.Join(", ", SelectedIds))</FluentLabel> *@
 
-    <FluentDataGrid Items="@FilteredItems" GridTemplateColumns="@ColSizes" RowClass="@(itr => SelectedIds.Contains(itr.Id) ? "highlighted-row" : null)" ItemKey="@(i => i.Id)" OnRowFocus="HandleRowFocus" TGridItem=InstanceTableRec>
+    <FluentDataGrid Items="@FilteredItems" GridTemplateColumns="@ColSizes"
+                    RowClass="@(itr => SelectedIds.Contains(itr.Id) ? "highlighted-row" : null)"
+                    ItemKey="@(i => i.Id)"
+                    OnRowFocus="@HandleRowFocus"
+                    OnRowClick="@HandleRowFocus"
+                    TGridItem=InstanceTableRec>
         <PropertyColumn Title="Id" Property="@(t => t.Id)" Sortable="true" Filtered="!string.IsNullOrWhiteSpace(IdFilter)" Tooltip="true">
             <ColumnOptions>
                 <div class="search-box">
-                    <FluentSearch 
+                    <FluentSearch
                         Autofocus="true"
                         @bind-Value="IdFilter"
                         @bind-Value:after="HandleFilterClear"
@@ -29,7 +34,7 @@
             <PropertyColumn Title="Name" Property="@(t => t.Name)" Sortable="true" Filtered="!string.IsNullOrWhiteSpace(NameFilter)" Tooltip="true" IsDefaultSortColumn="true">
                 <ColumnOptions>
                     <div class="search-box">
-                        <FluentSearch 
+                        <FluentSearch
                             Autofocus="true"
                             @bind-Value="NameFilter"
                             @bind-Value:after="HandleFilterClear"
@@ -45,7 +50,7 @@
             <PropertyColumn Title="Url" Property="@(t => t.Url)" Sortable="true" Filtered="!string.IsNullOrWhiteSpace(UrlFilter)" Tooltip="true">
                 <ColumnOptions>
                     <div class="search-box">
-                        <FluentSearch 
+                        <FluentSearch
                             Autofocus="true"
                             @bind-Value="UrlFilter"
                             @bind-Value:after="HandleFilterClear"
@@ -58,7 +63,7 @@
             <PropertyColumn Title="Description" Property="@(t => t.Description)" Sortable="true" Filtered="!string.IsNullOrWhiteSpace(DescriptionFilter)" Tooltip="true">
                 <ColumnOptions>
                     <div class="search-box">
-                        <FluentSearch 
+                        <FluentSearch
                             Autofocus="true"
                             @bind-Value="DescriptionFilter"
                             @bind-Value:after="HandleFilterClear"
@@ -74,7 +79,7 @@
             <PropertyColumn Title="Identifiers" Property="@(t => t.Identifiers)" Sortable="true" Filtered="!string.IsNullOrWhiteSpace(IdentifierFilter)" Tooltip="true">
                 <ColumnOptions>
                     <div class="search-box">
-                        <FluentSearch 
+                        <FluentSearch
                             Autofocus="true"
                             @bind-Value="IdentifierFilter"
                             @bind-Value:after="HandleFilterClear"
