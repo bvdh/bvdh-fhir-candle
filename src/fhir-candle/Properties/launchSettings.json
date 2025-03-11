@@ -6,15 +6,24 @@
     }
   },
   "profiles": {
-    "candle": {
+    "candle5826": {
       "commandName": "Project",
-      "commandLineArgs": "--r4 r4 --smart-optional * --fhir-source ~/fhirData --load-package hl7.fhir.r4.core",
+      "commandLineArgs": "--r4 r4 --port 5826 --url http://130.145.232.202:5826--smart-optional * --fhir-source fhirData --load-package hl7.fhir.r4.core",
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5826",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+      "candle5827": {
+          "commandName": "Project",
+          "commandLineArgs": "--r4 r4 --port 5827 --url http://130.145.232.202:5827 --smart-optional * --fhir-source fhirData --load-package hl7.fhir.r4.core",
+          "launchBrowser": true,
+          "applicationUrl": "http://localhost:5827",
+          "environmentVariables": {
+              "ASPNETCORE_ENVIRONMENT": "Development"
+          }
+      },
     "wgm": {
       "commandName": "Project",
       "commandLineArgs": "--r4 r4 --smart-optional * --fhir-source ./202501-WGM/search_candle_small",
