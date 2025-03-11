@@ -45,8 +45,16 @@ namespace FhirCandle.Authorization.Models
         public string? NeedPatientBanner { get; set; } = null;
 
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+        [JsonPropertyName("intent")]
+        public string? Intent { get; set; } = null;
+
+        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         [JsonPropertyName("smart_style_url")]
         public string? SmartStyleUrl { get; set; } = null;
+
+        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+        [JsonPropertyName("tenant")]
+        public string? Tenant { get; set; } = null;
 
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         [JsonPropertyName("fhirContext")]

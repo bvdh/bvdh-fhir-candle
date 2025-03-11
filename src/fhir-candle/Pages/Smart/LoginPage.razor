@@ -1,9 +1,11 @@
-﻿@using Microsoft.FluentUI.AspNetCore.Components;
+﻿@using FhirCandle.Authorization.Models
+@using FhirCandle.Authorization.Services
+@using Microsoft.FluentUI.AspNetCore.Components;
 
 @page "/smart/login"
 @inject NavigationManager NavigationManager
 @inject IFhirStoreManager StoreManager
-@inject ISmartAuthManager AuthManager
+@inject ISmartAuthorizationManager AuthManager
 
 @implements IDisposable
 

@@ -15,7 +15,6 @@ using FhirCandle.Extensions;
 using FhirCandle.Models;
 using FhirCandle.Storage;
 using FhirCandle.Utils;
-using FhirStore.Smart;
 using Firely.Fhir.Packages;
 using Hl7.Fhir.Utility;
 using static Org.BouncyCastle.Math.EC.ECCurve;

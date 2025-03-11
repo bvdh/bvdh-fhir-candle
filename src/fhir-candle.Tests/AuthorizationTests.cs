@@ -10,13 +10,14 @@ using FhirCandle.Authorization.Services;
 using FhirCandle.Authorization.Models;
 using FhirCandle.Models;
 using FhirCandle.Smart;
+using FhirCandle.Storage;
 using FhirCandle.Utils;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.IdentityModel.Tokens;
 using Shouldly;
 using Xunit.Abstractions;
-using AuthorizationInfo = FhirCandle.Authorization.Models.AuthorizationInfo;
+using AuthorizationInfo = FhirCandle.Models.AuthorizationInfo;
 
 namespace fhir.candle.Tests;
 
@@ -448,6 +449,9 @@ public class AuthorizationTestFixture
     /// <summary>Gets or sets the tenants.</summary>
     public Dictionary<string, TenantConfiguration> Tenants { get; set; }
 
+    /// <summary>Gets or sets the tenants.</summary>
+    public Dictionary<string, IFhirStore> FhirStores { get; set; }
+
     /// <summary>The FHIR store for FHIR R4.</summary>
     public ISmartAuthorizationManager AuthR4 { get; set; }
 
@@ -469,8 +473,11 @@ public class AuthorizationTestFixture
             { Name, ConfigR4 }
         };
 
+        FhirStores = new();
+
         AuthR4 = new SmartAuthorizationManager(
             Tenants,
+            FhirStores,
             new()
             {
                 PublicUrl = "http://localhost:5826/fhir/r4",

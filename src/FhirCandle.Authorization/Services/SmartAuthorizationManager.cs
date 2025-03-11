@@ -8,10 +8,12 @@ using System.Text;
 using FhirCandle.Authorization.Models;
 using FhirCandle.Configuration;
 using FhirCandle.Models;
+using FhirCandle.Smart;
 using FhirCandle.Storage;
 using Microsoft.Extensions.Logging.Abstractions;
 using Microsoft.IdentityModel.Tokens;
-using AuthorizationInfo = FhirCandle.Authorization.Models.AuthorizationInfo;
+using AuthorizationInfo = FhirCandle.Models.AuthorizationInfo;
+using SmartClientRegistration = FhirCandle.Authorization.Models.SmartClientRegistration;
 
 namespace FhirCandle.Authorization.Services;
 
@@ -50,6 +52,8 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
     /// <summary>The authorizations.</summary>
     private Dictionary<string, AuthorizationInfo> _authorizations = new();
 
+    private readonly IReadOnlyDictionary<string, IFhirStore> _fhirStores;
+
     /// <summary>
     /// Initializes a new instance of the fhir.candle.Services.SmartAuthManager class.
     /// </summary>
@@ -58,6 +62,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
     /// <param name="logger">             The logger.</param>
     public SmartAuthorizationManager(
         Dictionary<string, TenantConfiguration> tenants,
+        IReadOnlyDictionary<string, IFhirStore> fhirStores,
         CandleConfig serverConfiguration,
         ILogger<SmartAuthorizationManager>? logger)
     {
@@ -66,6 +71,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
         _logger = logger ?? NullLoggerFactory.Instance.CreateLogger<SmartAuthorizationManager>();
         _clientManager = new SmartClientManager(_logger);
         _jwtHelper = new JwtHelper(_jwtSign, _clientManager);
+        _fhirStores = fhirStores;
     }
 
     /// <summary>Gets a value indicating whether this object is enabled.</summary>
@@ -1581,7 +1587,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
         }
 
         // parse id token hint
-        if (!_jwtHelper.ParseIdToken(idTokenHint, out SecurityToken? token))
+        if (!_jwtHelper.ParseIdToken(idTokenHint, out JwtSecurityToken? token))
         {
             redirectDestination = string.Empty;
             return false;
@@ -1665,68 +1671,49 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
         // update our last access
         auth.LastAccessed = DateTimeOffset.UtcNow;
 
-        // GET patient and User
-        string? patient;
-        string? user;
-
-        // FhirClient fhirClient;
-        try
+        if ( tokenResponse==null || string.IsNullOrEmpty(tokenResponse.Patient))
         {
-            tokenResponse =
-                client.GetFromJsonAsync<TokenResponse>(url).GetAwaiter().GetResult();
+            redirect = ""; return false;
         }
-        catch (Exception e)
+        string foreignPatient = tokenResponse.Patient;
+
+        if ( string.IsNullOrEmpty(tokenResponse.IdToken) || !_jwtHelper.ParseIdToken(tokenResponse.IdToken, out JwtSecurityToken? parsedIdToken))
+        {
+            redirect = ""; return false;
+        }
+
+        // GET patient and User
+        if (parsedIdToken == null || ! parsedIdToken.Payload.ContainsKey("fhirUser"))
+        {
+            redirect = ""; return false;
+        }
+        string? foreignFhirUser = parsedIdToken.Payload["fhirUser"].ToString();
+
+        // GET
+        IFhirStore? fhirStore;
+        if (_fhirStores.TryGetValue(storeName, out fhirStore))
         {
             redirect = "";
             return false;
         }
+        ContextAligner contextAligner = new ContextAligner(tokenUrl, fhirStore!);
+        string? patientId = contextAligner.GetMatchingPatientId(foreignPatient!).GetAwaiter().GetResult();
+        if ( string.IsNullOrEmpty(foreignFhirUser) || !foreignFhirUser.StartsWith("Patient"))
+        {
+            redirect = ""; return false;
+        }
+        string? fhirUser = contextAligner.GetMatchingPatientId( foreignFhirUser ).GetAwaiter().GetResult();
+        if (string.IsNullOrEmpty(fhirUser))
+        {
+            redirect = ""; return false;
+        }
 
-        // GET
+        // Determine allowed access - now limited to ImagignStudy resources
+        List<string> matchingImagingStudies = contextAligner.GetMatchingImagingStudies(foreignPatient, patientId);
+        auth.EhrLaunch.matchingImagingStudies = matchingImagingStudies;
 
-    //     // create our response
-    //     local.Response = new()
-    //     {
-    //         PatientId = local.LaunchPatient,
-    //         FhirContext = fhirContext.Any() ? fhirContext : null,
-    //         TokenType = "bearer",
-    //         Scopes = string.Join(" ", permittedScopes),
-    //         ClientId = local.RequestParameters.ClientId,
-    //         IdToken = _jwtHelper.GenerateIdJwt(_tenants[tenant].BaseUrl, local),
-    //         AccessToken = code + "_" + code,
-    //         RefreshToken = code + "_" + code,
-    //     };
-    // }
-    // else
-    // {
-    //     // update our last access and expiration
-    //     local.LastAccessed = DateTimeOffset.UtcNow;
-    //     local.Expires = DateTimeOffset.UtcNow.AddMinutes(_tokenExpirationMinutes);
-    //
-    //     // create our response
-    //     local.Response = new()
-    //     {
-    //         PatientId = local.LaunchPatient,
-    //         FhirContext = fhirContext.Any() ? fhirContext : null,
-    //         TokenType = "bearer",
-    //         Scopes = string.Join(" ", permittedScopes),
-    //         ClientId = local.RequestParameters.ClientId,
-    //         IdToken = _jwtHelper.GenerateIdJwt(_tenants[tenant].BaseUrl, local),
-    //         AccessToken = code + "_" + Guid.NewGuid().ToString(),    // GenerateAccessJwt(_tenants[tenant].BaseUrl, local),
-    //         RefreshToken = code + "_" + Guid.NewGuid().ToString()
-    //     };
-    // }
-    //
-    // local.Activity.Add(new()
-    // {
-    //     RequestType = "authorization_code",
-    //     Success = true,
-    //     Message = $"Granted access token: {local.Response.AccessToken}, refresh token: {local.Response.RefreshToken}"
-    // });
-    //
-    // response = local.Response!;
-    // return true;
-        redirect = "";
-        return false;
+        redirect = $"/smart/approveStudies?store={storeName}&key={auth.Key}";
+        return true;
     }
 
 

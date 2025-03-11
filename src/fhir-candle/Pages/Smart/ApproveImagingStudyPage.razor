@@ -1,16 +1,16 @@
-﻿@using FhirCandle.Authorization.Models
-@using FhirCandle.Authorization.Services
+﻿@using FhirCandle.Authorization.Services
+@using FhirCandle.Authorization.Models
 @using Microsoft.FluentUI.AspNetCore.Components;
 
-@page "/smart/auth"
+@page "/smart/approveStudies"
 
 @inject NavigationManager NavigationManager
 @inject IFhirStoreManager StoreManager
-@inject ISmartAuthorizationManager AuthManager
+@inject ISmartAuthorizationManager AuthorizationManager
 
 @implements IDisposable
 
-<PageTitle>SMART Authorization</PageTitle>
+<PageTitle>SMART Approve Studies</PageTitle>
 
 <FluentStack Orientation="Orientation.Vertical" VerticalGap="8">
 
@@ -20,26 +20,26 @@
     <FluentLabel Typo="Typography.Body">Please select allowed scopes:</FluentLabel>
 
     <FluentStack Orientation="Orientation.Horizontal" Spacing="4">
-        <FluentButton BackgroundColor="var(--success)" OnClick="@(() => ApproveAuth())">Approve Selected Scopes</FluentButton>
+        <FluentButton BackgroundColor="var(--success)" OnClick="@(() => ApproveAuth())">Approve Selected Studies</FluentButton>
         <FluentButton BackgroundColor="var(--error)" OnClick="@(() => DenyAuth())">Cancel</FluentButton>
     </FluentStack>
 
-    <FluentCheckbox Label="@($"All Scopes")"
+    <FluentCheckbox Label="@($"All Studies")"
                 ThreeState="true"
                 ShowIndeterminate="false"
-                @bind-CheckState="AllScopesSelected" />
+                @bind-CheckState="AllImagingStudieselected" />
 
-    <FluentDataGrid Items="@_items" GridTemplateColumns="1fr 2fr" RowClass="@(s => _selected.Contains(s.Scope) ? "highlighted-row" : null!)" OnRowFocus="HandleRowFocus" TGridItem=ScopeInfo>
-        <PropertyColumn Title="Scope" Property="@(t => t.Scope)" Sortable="true" Tooltip="true">
+    <FluentDataGrid Items="@_items" GridTemplateColumns="1fr 2fr" RowClass="@(s => _selected.Contains(s.StudyId) ? "highlighted-row" : null!)" OnRowFocus="HandleRowFocus" TGridItem=ImagingStudyInfo>
+        <PropertyColumn Title="Study" Property="@(t => t.StudyId)" Sortable="true" Tooltip="true">
         </PropertyColumn>
 
-        <PropertyColumn Title="Description" Property="@(t => t.Description)" Sortable="true" Tooltip="true">
+        <PropertyColumn Title="Description" Property="@(t => t.StudyDescription)" Sortable="true" Tooltip="true">
         </PropertyColumn>
     </FluentDataGrid>
 }
 else
 {
-    <FluentLabel Typo="Typography.H4">SMART Authorization</FluentLabel>
+    <FluentLabel Typo="Typography.H4">SMART Approve Studies</FluentLabel>
     <FluentLabel Typo="Typography.Body">Error</FluentLabel>
     <FluentLabel Typo="Typography.Body">@ErrorMessage</FluentLabel>
 }
@@ -54,22 +54,22 @@ else
 
     private NavPageInfoRec[] _navPages => new NavPageInfoRec[]
     {
-        new() { Display = "Authorization: " + StoreName, Link = $"/smart/auth?store={StoreName}&key={Key}" },
+        new() { Display = "Authorization: " + StoreName, Link = $"/smart/approveStudies?store={StoreName}&key={Key}" },
     };
 
-    private record class ScopeInfo
+    private record class ImagingStudyInfo
     {
-        public required string Scope { get; init; }
-        public string Description { get; init; } = string.Empty;
+        public required string StudyId { get; init; }
+        public string StudyDescription { get; init; } = string.Empty;
     }
 
-    private IQueryable<ScopeInfo> _items = Array.Empty<ScopeInfo>().AsQueryable();
+    private IQueryable<ImagingStudyInfo> _items = Array.Empty<ImagingStudyInfo>().AsQueryable();
 
     /// <summary>The selected scopes.</summary>
     private readonly HashSet<string> _selected = new();
 
     /// <summary>Gets or sets all scopes selected.</summary>
-    private bool? AllScopesSelected
+    private bool? AllImagingStudieselected
     {
         get =>
             _selected.SetEquals(_auth.Scopes.Keys)
@@ -105,19 +105,19 @@ else
     /// <summary>The authorization information.</summary>
     private AuthorizationInfo _auth = null!;
 
-    private void HandleRowFocus(FluentDataGridRow<ScopeInfo> row)
+    private void HandleRowFocus(FluentDataGridRow<ImagingStudyInfo> row)
     {
         // _ = JsLogAsync($"Focused row item id: {row.Item?.Id}");
 
         if (row?.Item != null)
         {
-            if (_selected.Contains(row.Item.Scope))
+            if (_selected.Contains(row.Item.StudyId))
             {
-                _selected.Remove(row.Item.Scope);
+                _selected.Remove(row.Item.StudyId);
             }
             else
             {
-                _selected.Add(row.Item.Scope);
+                _selected.Add(row.Item.StudyId);
             }
         }
 
@@ -126,78 +126,15 @@ else
 
     private void UpdateScopeInfo()
     {
-        List<ScopeInfo> scopeInfo = new();
+        List<ImagingStudyInfo> scopeInfo = new();
 
-        foreach (string scope in _auth.Scopes.Keys)
+        foreach (string study in _auth.EhrLaunch.matchingImagingStudies )
         {
-            switch (scope)
+            scopeInfo.Add(new()
             {
-                case "openid":
-                case "fhirUser":
-                case "profile":
-                    scopeInfo.Add(new()
-                    {
-                        Scope = scope,
-                        Description = "Permission to retrieve information about the current logged-in user."
-                    });
-                    break;
-
-                case "launch":
-                    scopeInfo.Add(new()
-                    {
-                        Scope = scope,
-                        Description = "Permission to obtain launch context when app is launched from an EHR."
-                    });
-                    break;
-
-                case "launch/patient":
-                    scopeInfo.Add(new()
-                    {
-                        Scope = scope,
-                        Description = "When launching outside the EHR, ask for a patient to be selected at launch time."
-                    });
-                    break;
-
-                case "offline_access":
-                    scopeInfo.Add(new()
-                    {
-                        Scope = scope,
-                        Description = "Request a refresh_token that can be used to obtain a new access token to replace an expired one, even after the end-user no longer is online after the access token expires."
-                    });
-                    break;
-
-                case "online_access":
-                    scopeInfo.Add(new()
-                    {
-                        Scope = scope,
-                        Description = "Request a refresh_token that can be used to obtain a new access token to replace an expired one, and that will be usable for as long as the end-user remains online."
-                    });
-                    break;
-
-                default:
-                    {
-                        if (ParseResourceScope(scope, out string context, out string resourceType, out List<string> ops, out List<string> filters))
-                        {
-                            scopeInfo.Add(new()
-                            {
-                                Scope = scope,
-                                Description = $"Permission to {string.Join("&", ops)} all {resourceType} resources the {context} has access to" +
-                                    (filters.Any()
-                                    ? $", if they match: {string.Join(", ", filters)}"
-                                    : "."),
-                            });
-                        }
-                        else
-                        {
-                            scopeInfo.Add(new()
-                            {
-                                Scope = scope,
-                                Description = ""
-                            });
-                        }
-                    }
-                    break;
-            }
+                StudyId = study,
+                StudyDescription = "Study description."
+            });
         }
 
         _items = scopeInfo.AsQueryable();
@@ -306,11 +243,11 @@ else
     {
         base.OnInitialized();
 
-        if (AuthManager.TryGetAuthorization(StoreName, Key, out _auth))
+        if (AuthorizationManager.TryGetAuthorization(StoreName, Key, out _auth))
         {
             UpdateScopeInfo();
             _selected.Clear();
-            AllScopesSelected = true;
+            AllImagingStudieselected = true;
         }
 
         NavTracker?.NotifyNav(_navPages);
@@ -318,7 +255,7 @@ else
 
     private void DenyAuth()
     {
-        if (AuthManager.TryGetClientRedirect(StoreName, Key, out string url, "denied", "authorization request was denied"))
+        if (AuthorizationManager.TryGetClientRedirect(StoreName, Key, out string url, "denied", "authorization request was denied"))
         {
             NavigationManager.NavigateTo(url);
         }
@@ -333,9 +270,9 @@ else
             _auth.Scopes[scope] = _selected.Contains(scope);
         }
 
-        _ = AuthManager.TryUpdateAuth(StoreName, Key, _auth);
+        _ = AuthorizationManager.TryUpdateAuth(StoreName, Key, _auth);
 
-        if (!AuthManager.TryGetClientRedirect(StoreName, Key, out string redirect))
+        if (!AuthorizationManager.TryGetClientRedirect(StoreName, Key, out string redirect))
         {
             ErrorMessage = "Failed to retrieve redirect URL for client.";
             return;
@@ -351,7 +288,7 @@ else
     {
         if (e.Location.ToLowerInvariant().Contains("/smart/auth?", StringComparison.Ordinal))
         {
-            _ = AuthManager.TryGetAuthorization(StoreName, Key, out _auth);
+            _ = AuthorizationManager.TryGetAuthorization(StoreName, Key, out _auth);
 
             NavTracker?.NotifyNav(_navPages);
         }

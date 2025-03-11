@@ -1,10 +1,11 @@
-﻿@using Microsoft.FluentUI.AspNetCore.Components;
+﻿@using FhirCandle.Authorization.Services
+@using Microsoft.FluentUI.AspNetCore.Components;
 
 @page "/subscriptions/tour"
 
 @inject NavigationManager NavigationManager
 @inject IFhirStoreManager StoreManager
-@inject ISmartAuthManager AuthManager
+@inject ISmartAuthorizationManager AuthManager
 @inject IJSRuntime JS
 @inject IDialogService DialogService
 @inject IMessageService MessageService
@@ -113,7 +114,7 @@
                 <FluentStack Orientation="Orientation.Vertical" VerticalGap="8">
                     <FluentLabel Typo="Typography.Body">
                         The final piece of configuration for a subscription are filter values.
-                        In this tour, we will be using <code>Patient/example</code> as a 
+                        In this tour, we will be using <code>Patient/example</code> as a
                         patient filter for our topic.  Note that allowed filters are defined
                         by each topic.
                     </FluentLabel>
@@ -187,7 +188,7 @@
                     </FluentLabel>
 
                     <FluentLabel Typo="Typography.Body">
-                        For simplicity during this walkthrough, we will create an encounter with all the 
+                        For simplicity during this walkthrough, we will create an encounter with all the
                         values needed to trigger a notification.
                     </FluentLabel>
 
@@ -318,13 +319,13 @@
         ContentLevel = "id-only",
         Filters = new()
         {
-            { "Encounter", 
+            { "Encounter",
                 [
                     new ParsedSubscription.SubscriptionFilter(
-                        "Encounter", 
-                        "patient", 
-                        string.Empty, 
-                        string.Empty, 
+                        "Encounter",
+                        "patient",
+                        string.Empty,
+                        string.Empty,
                         "Patient/example")
                 ]
             },
@@ -386,8 +387,8 @@
         if (!_store.TryGetSubscription(subscription, out object? s))
         {
             _ = MessageService.ShowMessageBarAsync(
-                "Failed to build subscription object.", 
-                MessageIntent.Error, 
+                "Failed to build subscription object.",
+                MessageIntent.Error,
                 "MESSAGES_TOP");
             postingResource = false;
             return;
@@ -398,8 +399,8 @@
         if (!_store.InstanceCreate(ctx, out FhirResponseContext response))
         {
             _ = MessageService.ShowMessageBarAsync(
-                "Failed to create Subscription!\n" + response.SerializedOutcome, 
-                MessageIntent.Error, 
+                "Failed to create Subscription!\n" + response.SerializedOutcome,
+                MessageIntent.Error,
                 "MESSAGES_TOP");
             postingResource = false;
             return;
@@ -429,8 +430,8 @@
         if (!_store.InstanceCreate(ctx, out FhirResponseContext response))
         {
             _ = MessageService.ShowMessageBarAsync(
-                "Failed to create Encounter!\n" + response.SerializedOutcome, 
-                MessageIntent.Error, 
+                "Failed to create Encounter!\n" + response.SerializedOutcome,
+                MessageIntent.Error,
                 "MESSAGES_TOP");
             postingResource = false;
             return;

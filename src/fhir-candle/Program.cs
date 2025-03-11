@@ -11,8 +11,10 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
 using fhir.candle.Services;
+using FhirCandle.Authorization.Services;
 using FhirCandle.Configuration;
 using FhirCandle.Models;
+using FhirCandle.Storage;
 using FhirCandle.Utils;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting.StaticWebAssets;
@@ -265,6 +267,8 @@ public static partial class Program
             builder.Services.AddSingleton<IFhirStoreManager, FhirStoreManager>();
             builder.Services.AddHostedService<IFhirStoreManager>(sp => sp.GetRequiredService<IFhirStoreManager>());
 
+            builder.Services.AddSingleton(tenants);
+
             // add a notification manager singleton, then register as a hosted service
             builder.Services.AddSingleton<INotificationManager, NotificationManager>();
             builder.Services.AddHostedService<INotificationManager>(sp => sp.GetRequiredService<INotificationManager>());
@@ -274,8 +278,8 @@ public static partial class Program
             builder.Services.AddHostedService<IFhirPackageService>(sp => sp.GetRequiredService<IFhirPackageService>());
 
             // add a SMART Authorization singleton, then register as a hosted service
-            builder.Services.AddSingleton<ISmartAuthManager, SmartAuthManager>();
-            builder.Services.AddHostedService<ISmartAuthManager>(sp => sp.GetRequiredService<ISmartAuthManager>());
+            builder.Services.AddSingleton<ISmartAuthorizationManager, SmartAuthManager>();
+            builder.Services.AddHostedService<ISmartAuthorizationManager>(sp => sp.GetRequiredService<ISmartAuthorizationManager>());
 
             builder.Services.AddHttpContextAccessor();
             builder.Services.AddControllers();
@@ -339,9 +343,10 @@ public static partial class Program
                 //app.MapFallbackToPage("/_Host");
             }
 
+
             IFhirPackageService ps = app.Services.GetRequiredService<IFhirPackageService>();
             IFhirStoreManager sm = app.Services.GetRequiredService<IFhirStoreManager>();
-            ISmartAuthManager am = app.Services.GetRequiredService<ISmartAuthManager>();
+            ISmartAuthorizationManager am = app.Services.GetRequiredService<ISmartAuthorizationManager>();
 
             // perform slow initialization of services
             ps.Init();          // store manager requires Package Service to be initialized

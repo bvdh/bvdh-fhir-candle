@@ -27,4 +27,12 @@
 		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.2" />
 		<PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
 	</ItemGroup>
+	<ItemGroup>
+	  <Reference Include="Hl7.Fhir.Base">
+	    <HintPath>..\..\..\..\..\.nuget\packages\hl7.fhir.base\5.11.4\lib\net8.0\Hl7.Fhir.Base.dll</HintPath>
+	  </Reference>
+	  <Reference Include="Hl7.Fhir.R4">
+	    <HintPath>..\..\..\..\..\.nuget\packages\hl7.fhir.r4\5.11.4\lib\net8.0\Hl7.Fhir.R4.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
 </Project>

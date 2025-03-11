@@ -1,12 +1,14 @@
-﻿@using Microsoft.FluentUI.AspNetCore.Components;
+﻿@using FhirCandle.Authorization.Services
+@using Microsoft.FluentUI.AspNetCore.Components;
 
 @page "/smart/client_details"
 @using FhirCandle.Smart
 @using Microsoft.IdentityModel.Tokens
+@using SmartClientRegistration = FhirCandle.Authorization.Models.SmartClientRegistration
 
 @inject NavigationManager NavigationManager
 @inject IFhirStoreManager StoreManager
-@inject ISmartAuthManager AuthManager
+@inject ISmartAuthorizationManager AuthManager
 @inject IMessageService MessageService
 
 @implements IDisposable
@@ -125,7 +127,7 @@
     public string ClientId { get; set; } = string.Empty;
 
     /// <summary>Gets or sets the client.</summary>
-    public ClientInfo? SmartClient { get; set; } = null;
+    public SmartClientInfo? SmartClient { get; set; } = null;
 
     /// <summary>Gets or sets the client key.</summary>
     public JsonWebKey? ClientKey { get; set; } = null;
@@ -154,7 +156,7 @@
         // if we have a client ID, load the client info
         if (!string.IsNullOrEmpty(ClientId))
         {
-            if (AuthManager.SmartClients.TryGetValue(ClientId, out ClientInfo? client))
+            if (AuthManager.SmartClients.TryGetValue(ClientId, out SmartClientInfo? client))
             {
                 SmartClient = client;
                 ClientKey = client.Registration?.KeySet?.Keys?.FirstOrDefault();

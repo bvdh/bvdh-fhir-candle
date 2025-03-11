@@ -88,6 +88,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FhirCandle.Authorization\FhirCandle.Authorization.csproj" />
     <ProjectReference Include="..\FhirCandle.Ui.Common\FhirCandle.Ui.Common.csproj" />
     <ProjectReference Include="..\FhirCandle.Ui.R4B\FhirCandle.Ui.R4B.csproj" />
     <ProjectReference Include="..\FhirCandle.Ui.R4\FhirCandle.Ui.R4.csproj" />

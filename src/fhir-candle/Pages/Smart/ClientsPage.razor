@@ -1,4 +1,5 @@
-﻿@using Microsoft.FluentUI.AspNetCore.Components;
+﻿@using FhirCandle.Authorization.Services
+@using Microsoft.FluentUI.AspNetCore.Components;
 
 @page "/smart/clients"
 @using FhirCandle.Smart
@@ -6,7 +7,7 @@
 
 @inject NavigationManager NavigationManager
 @inject IFhirStoreManager StoreManager
-@inject ISmartAuthManager AuthManager
+@inject ISmartAuthorizationManager AuthManager
 
 @implements IDisposable
 
@@ -22,7 +23,7 @@
     else
     {
         <FluentGrid Spacing="8" style="background-color: var(--neutral-layer-3)">
-            @foreach (ClientInfo smartClient in AuthManager.SmartClients.Values.OrderBy(sc => sc.ClientName))
+            @foreach (SmartClientInfo smartClient in AuthManager.SmartClients.Values.OrderBy(sc => sc.ClientName))
             {
                 <FluentGridItem Style="min-width: var(--field-container-min-width);">
                     <FluentCard>
@@ -45,7 +46,7 @@
 
                             @if (smartClient.Activity.Any())
                             {
-                                @foreach (ClientInfo.ClientActivityRecord activity in smartClient.Activity.OrderByDescending(a => a.Timestamp).Take(3))
+                                @foreach (SmartClientInfo.ClientActivityRecord activity in smartClient.Activity.OrderByDescending(a => a.Timestamp).Take(3))
                                 {
                                     <FluentTextField Label="Activity" ReadOnly="true" Value="@(activity.RequestType + " " + activity.Timestamp.ToString("o") + " " + (activity.Success ? "success" : "fail"))" />
                                     @if (!string.IsNullOrEmpty(activity.Message))

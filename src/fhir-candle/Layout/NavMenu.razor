@@ -1,11 +1,12 @@
-﻿@using Microsoft.FluentUI.AspNetCore.Components;
+﻿@using FhirCandle.Authorization.Services
+@using Microsoft.FluentUI.AspNetCore.Components;
 
 @namespace fhir.candle.Layout
 
 @implements IDialogContentComponent<string>
 
 @inject IFhirStoreManager StoreManager
-@inject ISmartAuthManager AuthManager
+@inject ISmartAuthorizationManager AuthManager
 
 <FluentDialogBody>
     <FluentNavMenu Id="main-menu" Width="250" Collapsible="false" Title="FHIR Candle">

@@ -1,5 +1,6 @@
 using System.IdentityModel.Tokens.Jwt;
 using FhirCandle.Authorization.Models;
+using FhirCandle.Models;
 using Microsoft.IdentityModel.Tokens;
 
 namespace FhirCandle.Authorization.Services
@@ -193,12 +194,12 @@ namespace FhirCandle.Authorization.Services
             return true;
         }
 
-        public bool ParseIdToken(string idTokenHint, out SecurityToken? jsonToken)
+        public bool ParseIdToken(string idTokenHint, out JwtSecurityToken? jsonToken)
         {
             try
             {
                 JwtSecurityTokenHandler tokenHandler = new JwtSecurityTokenHandler();
-                jsonToken = tokenHandler.ReadToken(idTokenHint);
+                jsonToken = tokenHandler.ReadJwtToken(idTokenHint);
                 return true;
             }
             catch (Exception e)

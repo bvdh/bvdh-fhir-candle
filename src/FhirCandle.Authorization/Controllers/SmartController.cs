@@ -7,6 +7,7 @@ using System.Net;
 using System.Xml.Linq;
 using FhirCandle.Authorization.Models;
 using FhirCandle.Authorization.Services;
+using FhirCandle.Models;
 using Microsoft.AspNetCore.Http.Extensions;
 
 //using Microsoft.AspNetCore.Components;

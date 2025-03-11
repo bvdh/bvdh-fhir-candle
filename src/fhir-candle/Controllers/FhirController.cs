@@ -8,6 +8,8 @@ using System.Diagnostics.Metrics;
 using System.Net;
 using fhir.candle.Services;
 using Fhir.Metrics;
+using FhirCandle.Authorization.Models;
+using FhirCandle.Authorization.Services;
 using FhirCandle.Models;
 using FhirCandle.Storage;
 using Hl7.Fhir.Rest;
@@ -27,7 +29,7 @@ namespace fhir.candle.Controllers;
 public class FhirController : ControllerBase
 {
     private IFhirStoreManager _fhirStoreManager;
-    private ISmartAuthManager _smartAuthManager;
+    private ISmartAuthorizationManager _smartAuthManager;
 
     private ILogger<FhirController> _logger;
 
@@ -50,7 +52,7 @@ public class FhirController : ControllerBase
     /// <exception cref="ArgumentNullException"></exception>
     public FhirController(
         [FromServices] IFhirStoreManager fhirStoreManager,
-        [FromServices] ISmartAuthManager smartAuthManager,
+        [FromServices] ISmartAuthorizationManager smartAuthManager,
         [FromServices] ILogger<FhirController> logger)
     {
         _fhirStoreManager = fhirStoreManager ?? throw new ArgumentNullException(nameof(fhirStoreManager));
@@ -258,8 +260,8 @@ public class FhirController : ControllerBase
     {
         // make sure this store exists and has SMART enabled
         if (!_smartAuthManager.SmartConfigurationByTenant.TryGetValue(
-                storeName, 
-                out FhirStore.Smart.SmartWellKnown? smartConfig))
+                storeName,
+                out SmartWellKnown smartConfig))
         {
             await LogAndReturnError(Response, 404, $"GetSmartWellKnown <<< no SMART config for {storeName}!");
             return;
@@ -1250,7 +1252,7 @@ public class FhirController : ControllerBase
         }
     }
 
-    
+
     /// <summary>(An Action that handles HTTP POST requests) posts a system operation.</summary>
     /// <param name="storeName"> The store.</param>
     /// <param name="opName">    Name of the operation.</param>
@@ -1315,7 +1317,7 @@ public class FhirController : ControllerBase
             return;
         }
     }
-    
+
     /// <summary>(An Action that handles HTTP POST requests) posts a resource type.</summary>
     /// <param name="storeName">   The store.</param>
     /// <param name="resourceName">Name of the resource.</param>
@@ -1699,7 +1701,7 @@ public class FhirController : ControllerBase
             await LogAndReturnError(Response, 404, $"PostSystemBundle <<< no tenant at {storeName}!");
             return;
         }
-        
+
         try
         {
             // read the post body to process

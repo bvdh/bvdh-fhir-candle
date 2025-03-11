@@ -3,9 +3,9 @@
 //     Licensed under the MIT License (MIT). See LICENSE in the repo root for license information.
 // </copyright>
 
-using FhirCandle.Storage;
-using System.Net;
 using System.Text.Json.Serialization;
+using FhirCandle.Authorization.Models;
+using FhirCandle.Storage;
 
 namespace FhirCandle.Models;
 
@@ -119,6 +119,8 @@ public class AuthorizationInfo
 
         [JsonPropertyName("code_challenge_method")]
         public string? PkceMethod { get; init; } = string.Empty;
+
+        public string? IdTokenHint { get; set; } = string.Empty;
     }
 
     public record class SmartFhirContext
@@ -182,6 +184,21 @@ public class AuthorizationInfo
         public string RefreshToken { get; init; } = string.Empty;
     }
 
+    public class EhrLaunchData
+    {
+        public List<string> matchingImagingStudies = [];
+
+        public EhrLaunchData(string fhirEndpoint, SmartWellKnown smartWellKnown )
+        {
+            FhirEndpoint = fhirEndpoint;
+            SmartWellKnown = smartWellKnown;
+        }
+
+        public SmartWellKnown SmartWellKnown { get; }
+
+        public string FhirEndpoint { get; }
+    }
+
     /// <summary>Gets or initializes the key.</summary>
     public string Key { get; init; } = Guid.NewGuid().ToString();
 
@@ -189,8 +206,8 @@ public class AuthorizationInfo
     public required string Tenant { get; init; }
 
     /// <summary>Gets or initializes options for controlling the request.</summary>
-    public required SmartRequest RequestParameters 
-    { 
+    public required SmartRequest RequestParameters
+    {
         get => _requestParameters;
         init
         {
@@ -240,6 +257,8 @@ public class AuthorizationInfo
 
     /// <summary>Gets the activity.</summary>
     public List<AuthActivityRecord> Activity { get; } = [];
+
+    public EhrLaunchData EhrLaunch { get; set; }
 
     /// <summary>Query if this object is authorized.</summary>
     /// <returns>True if authorized, false if not.</returns>

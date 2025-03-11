@@ -5,9 +5,6 @@
 
 using FhirCandle.Models;
 using FhirCandle.Storage;
-using FhirStore.Smart;
-using Microsoft.Extensions.Hosting;
-
 namespace fhir.candle.Services;
 
 /// <summary>Interface for FHIR store manager.</summary>

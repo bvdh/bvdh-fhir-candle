@@ -6,7 +6,7 @@
 using FhirCandle.Authorization.Models;
 using FhirCandle.Models;
 using Microsoft.IdentityModel.Tokens;
-using AuthorizationInfo = FhirCandle.Authorization.Models.AuthorizationInfo;
+using AuthorizationInfo = FhirCandle.Models.AuthorizationInfo;
 
 namespace FhirCandle.Authorization.Services;
 

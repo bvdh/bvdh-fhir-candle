@@ -1,4 +1,5 @@
-﻿@using FhirCandle.Configuration
+﻿@using FhirCandle.Authorization.Services
+@using FhirCandle.Configuration
 @using Microsoft.FluentUI.AspNetCore.Components;
 @using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage;
 
@@ -8,7 +9,7 @@
 
 @inject ProtectedLocalStorage BrowserStore
 @inject IFhirStoreManager StoreManager
-@inject ISmartAuthManager AuthManager
+@inject ISmartAuthorizationManager AuthManager
 @inject CandleConfig ServerConfig
 @inject IJSRuntime JS
 @inject IDialogService DialogService
@@ -209,7 +210,7 @@
 
         _ = JS.InvokeVoidAsync("processCopyable");
     }
-    
+
     /// <summary>Notifies the navigation manager about the current location.</summary>
     /// <param name="navTree"></param>
     public void NotifyNav(NavPageInfoRec[] navTree)
