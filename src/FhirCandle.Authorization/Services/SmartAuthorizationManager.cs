@@ -1488,8 +1488,10 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
             redirect = "";
             return false;
         }
-        ContextAligner contextAligner = new ContextAligner(parsedIdToken.Issuer, fhirStore!);
+        ContextAligner contextAligner = new ContextAligner(parsedIdToken.Issuer, tokenResponse.AccessToken, fhirStore!);
         string? patientId = contextAligner.GetMatchingPatientId(foreignPatient!).GetAwaiter().GetResult();
+        auth.LaunchPatient = patientId;
+
         if ( string.IsNullOrEmpty(foreignFhirUser) )
         {
             _logger.LogInformation($"Matching patient not found ({foreignPatient}).");
@@ -1504,6 +1506,7 @@ public class SmartAuthorizationManager : ISmartAuthorizationManager, IDisposable
             redirect = ""; return false;
         }
         _logger.LogInformation( "Matching fhirUser found.");
+        auth.UserId = fhirUser;
 
         // Determine allowed access - now limited to ImagignStudy resources
         List<string> matchingImagingStudies = contextAligner.GetMatchingImagingStudies(foreignPatient, patientId);

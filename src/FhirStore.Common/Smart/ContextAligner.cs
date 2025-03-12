@@ -7,16 +7,34 @@ using Hl7.Fhir.Serialization;
 
 namespace FhirCandle.Smart
 {
-    public class ContextAligner(string fhirServerUrl, IFhirStore store)
+    public class ContextAligner
     {
-        private readonly string _fhirServerUrl = fhirServerUrl;
-        private readonly FhirClient _fhirClient = new(fhirServerUrl, new FhirClientSettings()
+        private readonly string _fhirServerUrl ;
+        private readonly BaseFhirClient _fhirClient;
+        private readonly IFhirStore _store;
+
+        public ContextAligner(string fhirServerUrl, string accessToken, IFhirStore store)
         {
-            ParserSettings = new ParserSettings()
+            _fhirServerUrl = fhirServerUrl;
+
+            var messageHandler = new HttpClientEventHandler();
+
+            messageHandler.OnBeforeRequest += (object sender, BeforeHttpRequestEventArgs e) =>
             {
-                PermissiveParsing = true
-            }
-        });
+                e.RawRequest.Headers
+                    .Add("Authorization", $"Bearer {accessToken}");
+            };
+
+
+            Hl7.Fhir.Rest.FhirClient client = new Hl7.Fhir.Rest.FhirClient(fhirServerUrl, messageHandler: messageHandler, settings: new FhirClientSettings()
+            {
+                PreferredFormat = ResourceFormat.Json
+            });
+
+            _fhirClient = client.WithLenientSerializer();
+
+            _store = store;
+        }
 
         public async Task<string?> GetMatchingPatientId(string foreignPatientId )
         {
@@ -41,14 +59,14 @@ namespace FhirCandle.Smart
 
             FhirRequestContext ctx = new FhirRequestContext
             {
-                TenantName = store.Config.ControllerName,
-                Store = store,
+                TenantName = _store.Config.ControllerName,
+                Store = _store,
                 HttpMethod = "GET",
                 SourceObject = null,
                 Url = $"Patient/{query}",
                 Authorization = null,
             };
-            store.TypeSearch(ctx, out FhirResponseContext opResponse);
+            _store.TypeSearch(ctx, out FhirResponseContext opResponse);
 
             if (opResponse.StatusCode != HttpStatusCode.OK)
             {
@@ -103,14 +121,14 @@ namespace FhirCandle.Smart
 
                 FhirRequestContext ctx = new FhirRequestContext
                 {
-                    TenantName = store.Config.ControllerName,
-                    Store = store,
+                    TenantName = _store.Config.ControllerName,
+                    Store = _store,
                     HttpMethod = "GET",
                     SourceObject = null,
                     Url = $"ImagingStudy/{query}",
                     Authorization = null,
                 };
-                store.TypeSearch(ctx, out FhirResponseContext opResponse);
+                _store.TypeSearch(ctx, out FhirResponseContext opResponse);
                 if (opResponse.StatusCode == HttpStatusCode.OK)
                 {
                     List<ImagingStudy> imagingStudyList =(opResponse.Resource as Bundle ?? new Bundle()).Entry
