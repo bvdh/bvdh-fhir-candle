@@ -1,3 +1,4 @@
+using System.Text.Json;
 using System.Text.Json.Serialization;
 
 namespace FhirCandle.Authorization.Models
@@ -13,8 +14,12 @@ namespace FhirCandle.Authorization.Models
         public string? TokenType { get; set; } = null;
 
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+        [JsonPropertyName("client_id")]
+        public string? ClientId { get; set; } = null;
+
+        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         [JsonPropertyName("expires_in")]
-        public string? ExpiresIn { get; set; } = null;
+        public int? ExpiresIn { get; set; } = null;
 
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         [JsonPropertyName("scope")]
@@ -42,7 +47,7 @@ namespace FhirCandle.Authorization.Models
 
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         [JsonPropertyName("need_patient_banner")]
-        public string? NeedPatientBanner { get; set; } = null;
+        public bool? NeedPatientBanner { get; set; } = null;
 
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         [JsonPropertyName("intent")]
@@ -59,6 +64,9 @@ namespace FhirCandle.Authorization.Models
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         [JsonPropertyName("fhirContext")]
         public FhirContextData[]? FhirContext { get; set; } = null;
+
+        [JsonExtensionData]
+        public Dictionary<string, JsonElement> ExtensionData { get; set; } = new Dictionary<string, JsonElement>();
 
         public record FhirContextData
         {

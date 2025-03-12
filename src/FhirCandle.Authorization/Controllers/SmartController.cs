@@ -194,6 +194,7 @@ public class SmartController : ControllerBase
         if (_smartAuthorizationManager.TryEhrRedirect(storeName, code, state, out string redirect))
         {
             Response.Redirect(redirect);
+            return;
         }
 
         _logger.LogWarning($"EHR redirect failed!");

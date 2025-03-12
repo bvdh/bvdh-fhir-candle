@@ -13,10 +13,10 @@ namespace FhirCandle.Smart
 
         public async Task<string?> GetMatchingPatientId(string foreignPatientId )
         {
-            string foreignPatientReference = foreignPatientId.StartsWith("Patient/")
+            string theForeignPatientId = foreignPatientId.StartsWith("Patient/")
                 ? foreignPatientId
-                : "Patient/" + foreignPatientId;
-            Patient? foreignPatient = await _fhirClient.ReadAsync<Patient>( foreignPatientReference );
+                : $"Patient/{foreignPatientId}";
+            Patient? foreignPatient = await _fhirClient.ReadAsync<Patient>( theForeignPatientId );
             if (foreignPatient == null)
             {
                 return null;
@@ -82,7 +82,7 @@ namespace FhirCandle.Smart
                     .Select(res => res as ImagingStudy)
                     .ToList()!;
                 foreignImagingStudies.AddRange(bundleList);
-                foreignImagingStudiesBundle = _fhirClient.SearchAsync<ImagingStudy>(new string[] { $"subject={foreignPatientReference}" })
+                foreignImagingStudiesBundle = _fhirClient.ContinueAsync(foreignImagingStudiesBundle)
                     .GetAwaiter()
                     .GetResult();
             }

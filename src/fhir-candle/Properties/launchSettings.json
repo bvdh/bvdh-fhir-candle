@@ -8,7 +8,7 @@
   "profiles": {
     "candle5826": {
       "commandName": "Project",
-      "commandLineArgs": "--r4 r4 --port 5826 --url http://130.145.232.202:5826--smart-optional * --fhir-source fhirData --load-package hl7.fhir.r4.core",
+      "commandLineArgs": "--r4 r4 --port 5826 --url http://130.145.232.202:5826 --smart-optional * --fhir-source fhirData --load-package hl7.fhir.r4.core",
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5826",
       "environmentVariables": {

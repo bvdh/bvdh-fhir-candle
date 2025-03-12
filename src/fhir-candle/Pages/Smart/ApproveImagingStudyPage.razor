@@ -16,8 +16,8 @@
 
 @if (string.IsNullOrEmpty(ErrorMessage))
 {
-    <FluentLabel Typo="Typography.H4">SMART Authorization</FluentLabel>
-    <FluentLabel Typo="Typography.Body">Please select allowed scopes:</FluentLabel>
+    <FluentLabel Typo="Typography.H4">SMART Approve Studies</FluentLabel>
+    <FluentLabel Typo="Typography.Body">Please select allowed studies:</FluentLabel>
 
     <FluentStack Orientation="Orientation.Horizontal" Spacing="4">
         <FluentButton BackgroundColor="var(--success)" OnClick="@(() => ApproveAuth())">Approve Selected Studies</FluentButton>
