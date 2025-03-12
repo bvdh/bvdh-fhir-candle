@@ -16,6 +16,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\*.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Operations\*.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Serialization\*.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Smart\ContextAligner.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Storage\*.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Search\*.cs" />
   </ItemGroup>

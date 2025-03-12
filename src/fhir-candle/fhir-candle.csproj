@@ -22,6 +22,7 @@
     <!--<StaticWebAssetBasePath>ui</StaticWebAssetBasePath>-->
     <StaticWebAssetBasePath Condition="$(StaticWebAssetBasePath) == ''">/</StaticWebAssetBasePath>
     <TargetFramework>net9.0</TargetFramework>
+    <TargetFrameworks />
     <!--<AddRazorSupportForMvc>true</AddRazorSupportForMvc>
 		<GenerateMvcApplicationPartsAssemblyAttributes>true</GenerateMvcApplicationPartsAssemblyAttributes>
 		<RazorCompileOnBuild>true</RazorCompileOnBuild>

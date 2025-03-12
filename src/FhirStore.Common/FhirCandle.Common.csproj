@@ -6,7 +6,10 @@
     <Nullable>enable</Nullable>
     <RootNamespace>FhirCandle</RootNamespace>
     <TargetFramework>net9.0</TargetFramework>
-    <TargetFrameworks />
+    <VersionPrefix>$([System.DateTime]::Now.ToString("yyyy.MMdd.HHmm"))</VersionPrefix>
+    <Version>$(VersionPrefix)</Version>
+    <AssemblyVersion>$([System.DateTime]::Now.ToString("0.yyyy.MMdd.HHmm"))</AssemblyVersion>
+    <FileVersion>$([System.DateTime]::Now.ToString("0.yyyy.MMdd.HHmm"))</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,13 +29,5 @@
 		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.4.0" />
 		<PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="9.0.2" />
 		<PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
-	</ItemGroup>
-	<ItemGroup>
-	  <Reference Include="Hl7.Fhir.Base">
-	    <HintPath>..\..\..\..\..\.nuget\packages\hl7.fhir.base\5.11.4\lib\net8.0\Hl7.Fhir.Base.dll</HintPath>
-	  </Reference>
-	  <Reference Include="Hl7.Fhir.R4">
-	    <HintPath>..\..\..\..\..\.nuget\packages\hl7.fhir.r4\5.11.4\lib\net8.0\Hl7.Fhir.R4.dll</HintPath>
-	  </Reference>
 	</ItemGroup>
 </Project>

@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.4.0" />
     <ProjectReference Include="..\FhirStore.Common\FhirCandle.Common.csproj" />
+    <ProjectReference Include="..\FhirStore.R4\FhirCandle.R4.csproj" />
   </ItemGroup>
 
   <ItemGroup>
