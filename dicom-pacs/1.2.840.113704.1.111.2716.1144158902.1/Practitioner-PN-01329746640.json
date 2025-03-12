@@ -1,0 +1,13 @@
+{
+  "resourceType": "Practitioner",
+  "id": "PN-01329746640",
+  "name": [
+    {
+      "text": "Richardson Justin",
+      "family": "Richardson",
+      "given": [
+        "Justin"
+      ]
+    }
+  ]
+}

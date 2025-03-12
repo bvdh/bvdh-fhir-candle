@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-0546694447",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.2787039C.null",
+      "value": "69e1c39e-9820-460a-af53-9b156b2a5e5b"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIQ 5.0 CVx PedEcho SR",
+      "family": "EPIQ 5.0 CVx PedEcho SR"
+    }
+  ],
+  "gender": "unknown"
+}

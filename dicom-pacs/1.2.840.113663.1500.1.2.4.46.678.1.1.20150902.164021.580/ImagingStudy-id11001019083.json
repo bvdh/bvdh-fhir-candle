@@ -1,0 +1,91 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id11001019083",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.840.113663.1500.1.2.4.46.678.1.1.20150902.164021.580"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "SR",
+      "display": "SR"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-01313021988",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.A8318807.06CF86CA",
+      "value": "23423526"
+    }
+  },
+  "started": "2015-09-02T16:40:21+00:00",
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/AN-1204386938",
+      "identifier": {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "ACSN"
+            }
+          ]
+        },
+        "system": "http://myAccSystem",
+        "value": "5723876"
+      }
+    }
+  ],
+  "referrer": {
+    "reference": "Practitioner/PN-11102702760"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.2.840.113663.1500.1.2.4.46.678.7.1.20150902.164021.583",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.2.4.46.678.8.1.20150902.164201.833",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.33"
+          },
+          "number": 1,
+          "title": "Adult Echocardiography Procedure Report"
+        }
+      ]
+    }
+  ]
+}

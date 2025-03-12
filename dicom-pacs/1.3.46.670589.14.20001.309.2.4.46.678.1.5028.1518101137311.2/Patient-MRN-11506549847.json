@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-11506549847",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.9BEB78B5.null",
+      "value": "4732edf5-f34e-4272-8b32-b394a77bce6c"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIC 7C 2.0 Fetal Echo SR",
+      "family": "EPIC 7C 2.0 Fetal Echo SR"
+    }
+  ],
+  "gender": "unknown"
+}

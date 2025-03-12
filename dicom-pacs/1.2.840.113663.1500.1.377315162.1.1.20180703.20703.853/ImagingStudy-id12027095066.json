@@ -1,0 +1,156 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id12027095066",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.840.113663.1500.1.377315162.1.1.20180703.20703.853"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "SR",
+      "display": "SR"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-1886783978",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.48EDE969.null",
+      "value": "03070220180703"
+    }
+  },
+  "started": "2018-07-03T02:07:03+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.2.840.113663.1500.1.377315162.7.1.20180703.20703.856",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.8.1.20180703.21415.170",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.33"
+          },
+          "number": 1,
+          "title": "Vascular Ultrasound Procedure Report"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113663.1500.1.377315162.2.1.20180703.20703.856",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "US",
+        "display": "US"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.5.20180703.20846.425",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.16.20180703.21405.238",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.9.20180703.20937.627",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.4.20180703.20821.101",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.8.20180703.20930.905",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.2.20180703.20752.855",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.6.20180703.20858.272",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.3.20180703.20805.566",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        }
+      ]
+    }
+  ]
+}

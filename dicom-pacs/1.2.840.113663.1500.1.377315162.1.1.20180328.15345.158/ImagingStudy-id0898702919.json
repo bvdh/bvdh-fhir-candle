@@ -1,0 +1,228 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id0898702919",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.840.113663.1500.1.377315162.1.1.20180328.15345.158"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "US",
+      "display": "US"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-01565695290",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.9EA02275.null",
+      "value": "45530120180328"
+    }
+  },
+  "started": "2018-03-28T01:53:45+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.2.840.113663.1500.1.377315162.2.1.20180328.15345.159",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "US",
+        "display": "US"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.4.20180328.15636.241",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\ABDOMINAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.16.20180328.20056.75",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\ABDOMINAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.20.20180328.20152.999",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.2.20180328.15604.96",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\ABDOMINAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.21.20180328.20153.106",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.13.20180328.15950.86",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\ABDOMINAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.9.20180328.15846.57",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\ABDOMINAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.14.20180328.20033.453",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\ABDOMINAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.23.20180328.20153.340",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.19.20180328.20152.931",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.8.20180328.15803.66",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\ABDOMINAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.3.20180328.15632.361",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\ABDOMINAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.6.20180328.15742.785",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\ABDOMINAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.10.20180328.15858.360",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\ABDOMINAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.15.20180328.20051.359",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\ABDOMINAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.11.20180328.15907.144",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\ABDOMINAL"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113663.1500.1.377315162.7.1.20180328.15345.159",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.8.1.20180328.20244.587",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.33"
+          },
+          "number": 1,
+          "title": "Vascular Ultrasound Procedure Report"
+        }
+      ]
+    }
+  ]
+}

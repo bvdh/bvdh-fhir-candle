@@ -1,0 +1,1238 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id11889518434",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.3.12.2.1107.5.2.7.20406.4.0.151460921663183"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "MR",
+      "display": "MR"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-0397554320",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.73DEA41B.083D7CEF",
+      "value": "1006"
+    }
+  },
+  "started": "2002-10-09T10:24:39+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153636723203251",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153649227351150",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153839531028480",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 148,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.15378641932319",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 107,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153720428002715",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 62,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153677427342319",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 33,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153829629332587",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 140,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153790224481628",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 110,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153747510025699",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 79,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153654718001133",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153672427594041",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153759113409789",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 86,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153675493741102",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 31,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153833374872829",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 143,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153760515251642",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 87,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153695720605249",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 47,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153832311832807",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 142,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153807123192022",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 123,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153723618531229",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 64,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153639462705829",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153685637281489",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 40,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153754226002510",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 83,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153810611171046",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 126,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153650316942172",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153845811022997",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 153,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153690722819514",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 44,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153669827622053",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153767298323093",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 92,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153664327501303",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153745810321865",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 78,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153783622541743",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 105,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153673336022435",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153828193142582",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 139,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153765728612375",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 91,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153661824221858",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153710729319503",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 56,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153721920472362",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 63,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153717014791528",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 60,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153647240311205",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153663064222494",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153640226771557",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153775674419512",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 99,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153733516202634",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 70,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153763024181028",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 89,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153812012042165",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 127,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153769625721718",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 94,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153791812452573",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 111,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153774534341654",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 98,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153643691611863",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153826826474414",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 138,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.15385208492142",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 158,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153785319861294",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 106,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153814517252002",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 129,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153751027892438",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 81,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153715520581979",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 59,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153738426364886",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 73,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153804323642798",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 121,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153808371292161",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 124,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153854713067900",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 160,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153844415431924",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 152,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153779516131242",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 102,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153801943132775",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 119,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153817347452064",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 131,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153667618761655",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153823617957391",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 136,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153676645962402",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 32,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153735024272005",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 71,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153795457861226",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 114,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153641050971651",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153800618322094",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 118,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.1536811531999",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 36,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153725560382417",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 65,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153651813963430",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153732119151151",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 69,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153842048024099",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 150,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153665216412916",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153743523841416",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 76,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153740218872843",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 74,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153752750751071",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 82,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.15380554814144",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 122,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153843130522625",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 151,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153787532972041",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 108,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153704214983270",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 52,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153794331312067",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 113,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153789128281610",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 109,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153815826152951",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 130,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153772921421055",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 97,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153848331002743",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 155,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153686524642248",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 41,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153851022721303",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 157,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153757517861468",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 85,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153847013061418",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 154,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153818613188313",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 132,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153714113456618",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 58,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153656015451228",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153718619582079",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 61,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153729179586191",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 67,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153764527083142",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 90,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153830824372015",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 141,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153736820322264",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 72,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153776830141806",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 100,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153688914316617",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 43,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153741629862014",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 75,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153837117632668",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 146,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153835917773227",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 145,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153679982814734",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 35,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153768441692154",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 93,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153660332209758",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.12.2.1107.5.2.7.20406.4.0.151858011141864",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153610916943243",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153613055372153",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.151865218751184",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153629531672238",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.151862319621262",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153624122709930",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153615316112082",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153617422921654",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153621946392965",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153626413972306",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.151863424081995",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153608649667376",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.151861524393548",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.12.2.1107.5.2.7.20406.4.0.15146132442171",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.151853427442380",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153927328848305",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153952717372246",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 247,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND\\MOSAIC"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153934714272917",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 42,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND\\MOSAIC"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153949126572169",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 206,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND\\MOSAIC"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153945526952162",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 165,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND\\MOSAIC"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153928919188360",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND\\MOSAIC"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.2.7.20406.4.0.153941972851255",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 124,
+          "title": "ORIGINAL\\PRIMARY\\M\\ND\\MOSAIC"
+        }
+      ]
+    }
+  ]
+}

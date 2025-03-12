@@ -1,0 +1,3037 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id1211046247",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.840.113704.7.1.0.6613625236219181.1321520550.0"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "CT\\SR",
+      "display": "CT\\SR"
+    },
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "CT",
+      "display": "CT"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-1319995172",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "pacsdemo_iss",
+      "value": "RS10346006"
+    }
+  },
+  "started": "2019-10-19T20:31:23+00:00",
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/AN-02025211522",
+      "identifier": {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "ACSN"
+            }
+          ]
+        },
+        "system": "http://myAccSystem",
+        "value": "55443322"
+      }
+    }
+  ],
+  "referrer": {
+    "reference": "Practitioner/PN-1511649257"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "numberOfInstances": 321,
+  "series": [
+    {
+      "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520551.5",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520556.53",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 48,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.140",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 135,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.9",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520563.96",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 91,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.71",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 66,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520551.7",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520558.59",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 54,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.124",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 119,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.128",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 123,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520562.92",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 87,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520567.122",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 117,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.27",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.135",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 130,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.14",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.114",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 109,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.24",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520561.85",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 80,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520553.32",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 27,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520557.56",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 51,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520564.99",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 94,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.75",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 70,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520560.83",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 78,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520553.31",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520567.120",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 115,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.112",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 107,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.138",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 133,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.25",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.145",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 140,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520553.36",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 31,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.137",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 132,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.80",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 75,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.106",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 101,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520558.64",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 59,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520553.35",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520561.89",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 84,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520553.39",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 34,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520563.93",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 88,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.28",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.110",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 105,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.141",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 136,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520561.86",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 81,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.12",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520554.43",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 38,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520557.57",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 52,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.152",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 147,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.15",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.115",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 110,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.105",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 100,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520553.34",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.151",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 146,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520556.51",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 46,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.108",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 103,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.150",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 145,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520563.95",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 90,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520555.49",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 44,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.130",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 125,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.68",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 63,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520562.91",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 86,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.29",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520567.123",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 118,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520560.82",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 77,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.109",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 104,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.73",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 68,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.117",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 112,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.148",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 143,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.72",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 67,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.127",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 122,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.134",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 129,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.78",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 73,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520555.47",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 42,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.149",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 144,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520556.54",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 49,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.20",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520564.101",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 96,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520563.98",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 93,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.23",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.143",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 138,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.11",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520554.42",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 37,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520560.84",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 79,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520555.48",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 43,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.79",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 74,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.74",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 69,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.22",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.126",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 121,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.144",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 139,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.107",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 102,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.139",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 134,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.131",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 126,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.132",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 127,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520554.41",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 36,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.70",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 65,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520553.37",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 32,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520563.94",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 89,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.26",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520557.58",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 53,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520564.100",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 95,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.146",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 141,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.125",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 120,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520558.60",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 55,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520551.6",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.142",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 137,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.66",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 61,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.17",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520567.121",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 116,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520563.97",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 92,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.65",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 60,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520553.33",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.76",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 71,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.21",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.116",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 111,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.67",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 62,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520553.40",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 35,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.113",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 108,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.69",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 64,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520561.87",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 82,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520558.61",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 56,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520565.103",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 98,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.129",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 124,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.133",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 128,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.18",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520557.55",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 50,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520558.62",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 57,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.118",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 113,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.8",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.147",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 142,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520556.50",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 45,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520555.46",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 41,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.136",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 131,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520560.81",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 76,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.19",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.111",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 106,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.30",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520562.90",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 85,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520561.88",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 83,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520566.119",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 114,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520554.44",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 39,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520559.77",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 72,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.16",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.13",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520565.104",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 99,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520554.45",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 40,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520552.10",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520558.63",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 58,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520553.38",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 33,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520565.102",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 97,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520556.52",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 47,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.242",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520581.261",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 19,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520588.297",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 55,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520592.321",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 79,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.246",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 4,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520580.257",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 15,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520581.262",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 20,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.247",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 5,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.243",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "DERIVED\\PRIMARY\\LOCALIZER\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520590.300",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 58,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520587.293",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 51,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520584.273",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 31,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520591.318",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 76,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520586.285",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 43,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.253",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 11,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520588.294",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 52,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520584.270",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 28,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520588.295",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 53,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520587.287",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 45,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520587.292",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 50,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520581.263",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 21,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520589.299",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 57,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520587.286",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 44,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520580.255",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 13,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520591.314",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 72,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520590.302",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 60,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520591.312",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 70,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520591.316",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 74,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520587.290",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 48,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520587.291",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 49,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520586.284",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 42,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520579.254",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 12,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.249",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 7,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520580.258",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 16,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520583.268",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 26,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520590.304",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 62,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520590.306",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 64,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520584.275",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 33,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520583.269",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 27,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520582.267",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 25,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520590.311",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 69,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520585.280",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 38,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520584.278",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 36,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520592.323",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 81,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520588.296",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 54,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520590.307",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 65,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.244",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 2,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520584.279",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 37,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520590.305",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 63,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520591.315",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 73,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.252",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 10,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520584.274",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 32,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520591.319",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 77,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520590.309",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 67,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520585.282",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 40,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520590.301",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 59,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520586.283",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 41,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520587.288",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 46,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520592.320",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 78,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.248",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 6,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520591.313",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 71,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520584.271",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 29,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520591.317",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 75,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520580.260",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 18,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520590.308",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 66,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520590.303",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 61,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520584.272",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 30,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520582.266",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 24,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520592.322",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 80,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.245",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 3,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520582.265",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 23,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520585.281",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 39,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520590.310",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 68,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520580.256",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 14,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520584.276",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 34,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520589.298",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 56,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520587.289",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 47,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520584.277",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 35,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.250",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 8,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520582.264",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 22,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.251",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 9,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520580.259",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 17,
+          "title": "DERIVED\\PRIMARY\\AXIAL\\CT_SOM5 SPO"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.153",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520569.157",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.177",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520574.210",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 57,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520569.160",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520575.220",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 67,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520575.214",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 61,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520577.229",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 76,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.184",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 31,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520577.231",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 78,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520572.195",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 42,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520576.227",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 74,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520572.202",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 49,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520569.163",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.239",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 86,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.189",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 36,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.182",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520569.161",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.185",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 32,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520576.226",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 73,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.176",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520569.156",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.183",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520571.193",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 40,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.174",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520571.194",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 41,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520572.196",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 43,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520569.162",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520576.222",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 69,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.171",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520575.221",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 68,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520574.211",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 58,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.170",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520575.217",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 64,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.237",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 84,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520572.201",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 48,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520572.199",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 46,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520575.216",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 63,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.167",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.181",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.186",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 33,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520568.154",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520569.159",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520574.208",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 55,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.187",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 34,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520576.228",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 75,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520577.232",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 79,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.173",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.190",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 37,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520574.207",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 54,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.188",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 35,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.179",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520575.213",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 60,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520576.223",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 70,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520575.218",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 65,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.178",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520577.233",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 80,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520572.198",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 45,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520572.197",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 44,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.191",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 38,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.241",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 88,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520572.200",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 47,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.175",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.236",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 83,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.240",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 87,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520569.158",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520576.224",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 71,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.192",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 39,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.165",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.172",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520575.215",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 62,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520576.225",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 72,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520577.230",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 77,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520574.209",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 56,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.235",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 82,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520574.212",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 59,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.166",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.180",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 27,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520572.203",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 50,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520569.155",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.164",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520573.204",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 51,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.168",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520570.169",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520575.219",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 66,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.238",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 85,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520573.205",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 52,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520574.206",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 53,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520578.234",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 81,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL\\CT_SOM5 SPI"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520592.324",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520592.325",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.7"
+          },
+          "number": 1,
+          "title": "DERIVED\\SECONDARY\\OTHER\\CT_SOM5 PROT"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113704.7.1.1.3564624500.1458152589.50062.248.150.653589",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113704.7.1.0.1223676225123214.1540298429.27",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.33"
+          },
+          "number": 1,
+          "title": "Radiology Report"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520550.1",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520550.2",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\LOCALIZER\\CT_SOM5 TOP"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.6613625236219181.1321520551.4",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\LOCALIZER\\CT_SOM5 TOP"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.12.2.1107.5.1.4.60071.30000011101911123607800003206",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.12.2.1107.5.1.4.60071.30000011101911123607800003207",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.67"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\OTHER\\CSA REPORT"
+        }
+      ]
+    }
+  ]
+}

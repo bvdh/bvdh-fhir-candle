@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-01130311420",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.E72CC01F.null",
+      "value": "23100620190107"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIIQ  CVX v4.0 AdultEcho SR",
+      "family": "EPIIQ  CVX v4.0 AdultEcho SR"
+    }
+  ],
+  "gender": "unknown"
+}

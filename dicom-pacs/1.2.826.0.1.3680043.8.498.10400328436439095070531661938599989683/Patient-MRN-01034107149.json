@@ -1,0 +1,29 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-01034107149",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.77E16151.06EB3D8C",
+      "value": "952199064"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "Case01",
+      "family": "Case01"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1957-01-01"
+}

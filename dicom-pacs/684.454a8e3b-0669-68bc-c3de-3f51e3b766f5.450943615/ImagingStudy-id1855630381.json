@@ -1,0 +1,4507 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id1855630381",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "684.454a8e3b-0669-68bc-c3de-3f51e3b766f5.450943615"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "MR",
+      "display": "MR"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-01189185299",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.22D779C5.54A03542",
+      "value": "454a8e3b-0669-68bc-c3de-3f51e3b766f5"
+    }
+  },
+  "started": "2019-10-05T13:44:42+00:00",
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/AN-150366707",
+      "identifier": {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "ACSN"
+            }
+          ]
+        },
+        "system": "http://myAccSystem",
+        "value": "accessionNumber"
+      }
+    }
+  ],
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.232.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.244.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.237.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.250.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.240.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.245.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.254.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.236.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.231.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.238.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.252.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.248.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.235.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.243.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.246.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.253.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.257.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.234.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.249.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.233.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.242.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.247.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.255.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.239.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.251.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.256.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.241.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.259.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.482.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 224,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.392.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 134,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.344.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 86,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.258.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.312.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 54,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.430.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 172,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.422.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 164,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.354.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 96,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.465.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 207,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.383.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 125,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.440.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 182,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.404.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 146,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.304.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 46,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.305.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 47,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.375.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 117,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.371.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 113,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.459.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 201,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.327.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 69,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.417.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 159,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.479.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 221,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.402.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 144,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.439.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 181,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.426.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 168,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.309.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 51,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.328.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 70,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.451.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 193,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.263.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.418.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 160,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.297.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 39,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.441.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 183,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.360.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 102,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.262.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.365.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 107,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.283.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.271.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.357.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 99,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.483.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 225,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.492.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 234,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.338.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 80,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.363.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 105,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.461.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 203,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.329.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 71,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.477.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 219,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.295.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 37,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.291.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 33,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.443.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 185,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.491.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 233,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.466.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 208,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.285.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 27,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.487.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 229,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.474.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 216,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.341.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 83,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.331.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 73,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.306.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 48,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.379.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 121,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.450.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 192,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.464.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 206,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.438.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 180,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.485.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 227,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.353.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 95,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.389.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 131,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.462.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 204,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.318.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 60,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.317.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 59,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.405.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 147,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.456.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 198,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.294.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 36,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.350.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 92,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.473.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 215,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.340.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 82,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.313.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 55,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.449.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 191,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.458.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 200,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.415.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 157,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.381.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 123,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.315.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 57,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.293.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 35,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.322.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 64,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.351.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 93,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.325.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 67,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.301.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 43,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.316.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 58,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.488.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 230,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.314.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 56,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.336.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 78,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.264.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.490.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 232,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.298.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 40,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.475.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 217,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.310.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 52,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.290.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 32,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.346.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 88,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.468.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 210,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.335.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 77,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.261.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.399.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 141,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.409.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 151,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.420.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 162,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.369.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 111,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.332.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 74,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.435.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 177,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.467.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 209,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.321.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 63,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.401.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 143,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.339.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 81,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.270.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.431.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 173,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.410.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 152,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.427.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 169,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.323.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 65,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.374.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 116,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.288.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.343.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 85,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.260.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.359.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 101,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.286.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.373.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 115,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.320.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 62,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.268.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.407.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 149,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.266.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.299.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 41,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.421.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 163,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.333.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 75,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.273.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.425.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 167,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.277.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.400.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 142,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.447.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 189,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.452.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 194,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.489.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 231,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.419.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 161,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.307.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 49,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.414.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 156,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.269.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.296.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 38,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.457.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 199,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.446.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 188,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.376.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 118,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.471.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 213,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.455.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 197,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.347.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 89,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.472.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 214,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.362.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 104,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.385.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 127,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.429.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 171,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.396.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 138,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.366.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 108,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.289.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 31,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.308.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 50,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.265.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.279.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.274.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.292.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 34,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.412.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 154,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.345.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 87,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.484.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 226,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.437.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 179,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.394.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 136,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.368.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 110,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.411.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 153,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.391.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 133,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.382.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 124,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.278.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.337.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 79,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.282.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.448.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 190,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.303.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 45,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.442.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 184,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.276.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.395.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 137,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.311.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 53,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.342.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 84,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.272.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.370.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 112,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.358.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 100,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.445.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 187,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.486.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 228,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.434.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 176,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.356.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 98,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.378.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 120,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.469.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 211,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.280.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.324.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 66,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.355.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 97,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.460.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 202,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.406.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 148,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.454.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 196,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.423.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 165,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.393.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 135,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.432.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 174,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.349.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 91,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.302.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 44,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.348.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 90,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.444.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 186,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.436.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 178,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.386.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 128,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.388.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 130,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.470.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 212,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.334.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 76,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.387.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 129,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.330.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 72,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.403.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 145,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.287.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.377.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 119,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.433.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 175,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.372.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 114,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.319.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 61,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.281.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.413.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 155,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.367.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 109,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.275.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.300.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 42,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.397.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 139,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.428.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 170,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.380.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 122,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.416.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 158,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.480.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 222,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.361.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 103,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.364.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 106,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.424.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 166,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.384.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 126,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.390.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 132,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.398.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 140,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.481.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 223,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.453.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 195,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.267.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.463.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 205,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.478.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 220,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.284.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.476.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 218,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.352.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 94,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.408.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 150,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.326.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 68,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.494.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.493.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.7"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\SECONDARY"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.496.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.7"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\SECONDARY"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.495.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.7"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\SECONDARY"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.153.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.229.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 77,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.163.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.210.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 58,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.216.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 64,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.157.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.171.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.179.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 27,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.181.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.154.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.209.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 57,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.213.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 61,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.206.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 54,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.204.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 52,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.226.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 74,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.176.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.158.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.185.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 33,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.160.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.193.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 41,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.175.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.221.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 69,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.167.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.222.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 70,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.178.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.225.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 73,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.187.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 35,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.215.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 63,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.217.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 65,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.208.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 56,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.173.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.196.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 44,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.165.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.205.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 53,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.218.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 66,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.166.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.191.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 39,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.192.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 40,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.227.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 75,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.194.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 42,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.199.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 47,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.156.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.172.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.164.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.184.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 32,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.200.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 48,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.170.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.223.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 71,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.186.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 34,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.159.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.174.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.180.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.197.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 45,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.201.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 49,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.203.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 51,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.190.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 38,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.182.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.230.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 78,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.188.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 36,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.212.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 60,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.195.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 43,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.224.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 72,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.162.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.198.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 46,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.152.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.155.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.177.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.214.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 62,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.219.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 67,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.169.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.202.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 50,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.161.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.228.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 76,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.168.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.207.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 55,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.220.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 68,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.183.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 31,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.189.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 37,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.211.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 59,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.5.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.24.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.18.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.43.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 38,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.34.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.8.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.28.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.12.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.15.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.44.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 39,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.41.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 36,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.22.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.14.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.38.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 33,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.26.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.11.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.42.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 37,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.10.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.39.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 34,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.16.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.9.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.13.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.19.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.20.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.32.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 27,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.37.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 32,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.33.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.21.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.23.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.30.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.29.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.35.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.31.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.27.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.25.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.7.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.40.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 35,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.3.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.17.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.36.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 31,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.45.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 40,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.112.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.136.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.121.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.111.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.114.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.129.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.125.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.122.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.132.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.131.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.126.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.139.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.134.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.118.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.144.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 33,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.116.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.147.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 36,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.133.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.142.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 31,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.119.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.149.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 38,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.150.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 39,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.137.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.123.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.148.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 37,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.113.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.141.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.140.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.128.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.151.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 40,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.135.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.138.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 27,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.145.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 34,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.115.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.143.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 32,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.127.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.120.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.124.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.146.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 35,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.130.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.117.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\M_SE\\M\\SE"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.47.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.110.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 64,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.58.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.94.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 48,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.76.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.54.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.78.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 32,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.67.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.65.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.109.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 63,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.56.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.90.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 44,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.66.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.98.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 52,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.71.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.89.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 43,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.86.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 40,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.97.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 51,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.107.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 61,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.106.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 60,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.96.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 50,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.53.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.85.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 39,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.83.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 37,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.101.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 55,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.52.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.68.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.91.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 45,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.64.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.103.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 57,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.79.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 33,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.74.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.73.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 27,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.55.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.80.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 34,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.50.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.99.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 53,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.63.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.57.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.95.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 49,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.88.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 42,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.105.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 59,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.108.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 62,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.93.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 47,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.82.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 36,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.70.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.92.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 46,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.51.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.81.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 35,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.100.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 54,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.102.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 56,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.69.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.49.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.75.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.59.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.104.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 58,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.62.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.46.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.84.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 38,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.60.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.87.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 41,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.77.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 31,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.61.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.48.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.939772310.1977867020.1426868947350.72.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\M_FFE\\M\\FFE"
+        }
+      ]
+    }
+  ]
+}

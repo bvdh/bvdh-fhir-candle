@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-1481343540",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.DB0BB0AA.null",
+      "value": "a80856d4-b78f-4133-b998-ef609e680e0e"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIQ 4.0 OB Twins SR",
+      "family": "EPIQ 4.0 OB Twins SR"
+    }
+  ],
+  "gender": "unknown"
+}

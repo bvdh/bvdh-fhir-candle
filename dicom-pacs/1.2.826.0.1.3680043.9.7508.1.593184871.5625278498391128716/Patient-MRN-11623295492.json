@@ -1,0 +1,32 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-11623295492",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.4505BAAB.06EB3D8C",
+      "value": "INCEPTO_KEROS_SR_QUALITATIVE"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "INCEPTO TESTSR",
+      "family": "INCEPTO",
+      "given": [
+        "TESTSR"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1957-01-01"
+}

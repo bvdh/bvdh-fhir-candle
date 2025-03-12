@@ -1,0 +1,37 @@
+{
+  "resourceType": "Device",
+  "id": "dicom-2-fhir-conversion-device",
+  "status": "active",
+  "manufacturer": "Philips Healthcare - IP&S",
+  "deviceName": [
+    {
+      "name": "Philips DICOM 2 FHIR Conversion Device",
+      "type": "user-friendly-name"
+    }
+  ],
+  "version": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "urn:iso:std:iso:11073:10101",
+            "code": "531975"
+          }
+        ],
+        "text": "Software revision"
+      },
+      "value": "37.1"
+    }
+  ],
+  "contact": [
+    {
+      "system": "email",
+      "value": "bas.van.den.heuvel@philips.com",
+      "use": "work",
+      "rank": 1,
+      "period": {
+        "start": "1995"
+      }
+    }
+  ]
+}

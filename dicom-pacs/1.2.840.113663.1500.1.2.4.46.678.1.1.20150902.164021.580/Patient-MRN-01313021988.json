@@ -1,0 +1,45 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-01313021988",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.A8318807.06CF86CA",
+      "value": "23423526"
+    },
+    {
+      "use": "secondary",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "value": "373764"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "AdultEcho User defined SR Fname4",
+      "family": "AdultEcho User defined SR",
+      "given": [
+        "Fname4"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1955-12-12"
+}

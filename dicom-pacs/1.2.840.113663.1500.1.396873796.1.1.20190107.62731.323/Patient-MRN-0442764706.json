@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-0442764706",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.055BE0C2.null",
+      "value": "31270620190107"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIQ CVx v4.0 LV AutoSTRAIN",
+      "family": "EPIQ CVx v4.0 LV AutoSTRAIN"
+    }
+  ],
+  "gender": "unknown"
+}

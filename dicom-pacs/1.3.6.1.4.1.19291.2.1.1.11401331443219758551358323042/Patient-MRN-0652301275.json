@@ -1,0 +1,29 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-0652301275",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.F7573983.0A46E2AE",
+      "value": "P-00000006"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "Prosthetic",
+      "family": "Prosthetic"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1976-04-14"
+}

@@ -1,0 +1,263 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id0594544264",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.840.113663.1500.1.376064716.1.1.20180306.90549.290"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "US",
+      "display": "US"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-11207991864",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.4BD01DE4.null",
+      "value": "49050920180306"
+    }
+  },
+  "started": "2018-03-06T09:05:49+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.2.840.113663.1500.1.376064716.2.1.20180306.90549.292",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "US",
+        "display": "US"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.11.20180306.90836.558",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.15.20180306.90934.298",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.30.20180306.91333.191",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.5.20180306.90646.733",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.1.20180306.90625.958",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.24.20180306.91147.496",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.19.20180306.91016.987",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.25.20180306.91236.817",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.16.20180306.90943.409",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.23.20180306.91110.86",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.28.20180306.91332.854",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.4.20180306.90643.270",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.3.20180306.90632.644",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.26.20180306.91249.575",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.6.20180306.90725.175",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.22.20180306.91058.457",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.29.20180306.91333.15",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.10.20180306.90816.710",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.12.20180306.90842.975",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.14.20180306.90903.696",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.21.20180306.91038.730",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.376064716.3.17.20180306.90954.330",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\PEDIATRIC"
+        }
+      ]
+    }
+  ]
+}

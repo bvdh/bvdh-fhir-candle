@@ -8,7 +8,7 @@
   "profiles": {
     "candle5826": {
       "commandName": "Project",
-      "commandLineArgs": "--r4 r4 --port 5826 --url http://130.145.232.202:5826 --smart-optional * --fhir-source fhirData --load-package hl7.fhir.r4.core",
+      "commandLineArgs": "--r4 r4 --port 5826 --url http://130.145.232.202:5826 --smart-optional * --fhir-source dicom-ehr --load-package hl7.fhir.r4.core",
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5826",
       "environmentVariables": {
@@ -17,7 +17,7 @@
     },
       "candle5827": {
           "commandName": "Project",
-          "commandLineArgs": "--r4 r4 --port 5827 --url http://130.145.232.202:5827 --smart-optional * --fhir-source fhirData --load-package hl7.fhir.r4.core",
+          "commandLineArgs": "--r4 r4 --port 5827 --url http://130.145.232.202:5827 --smart-optional * --fhir-source dicom-pacs --load-package hl7.fhir.r4.core",
           "launchBrowser": true,
           "applicationUrl": "http://localhost:5827",
           "environmentVariables": {

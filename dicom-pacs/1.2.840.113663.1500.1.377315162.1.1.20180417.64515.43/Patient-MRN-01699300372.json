@@ -1,0 +1,32 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-01699300372",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.47F5FC9E.null",
+      "value": "15450620180417"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "OB FETAL ECHO TWIN EPIQ7G 3.0",
+      "family": "OB FETAL ECHO TWIN",
+      "given": [
+        "EPIQ7G",
+        "3.0"
+      ]
+    }
+  ],
+  "gender": "female"
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-01565695290",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.9EA02275.null",
+      "value": "45530120180328"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIQ7 PEDS 3.0",
+      "family": "EPIQ7 PEDS 3.0"
+    }
+  ],
+  "gender": "female"
+}

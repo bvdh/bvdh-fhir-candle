@@ -1,0 +1,561 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id045759018",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.840.113663.1500.1.377315162.1.1.20180423.85750.743"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "US",
+      "display": "US"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-02035585402",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.462FBBC9.null",
+      "value": "50570820180423"
+    }
+  },
+  "started": "2018-04-23T08:57:50+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.2.840.113663.1500.1.377315162.2.1.20180423.85750.744",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "US",
+        "display": "US"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.76.20180423.91116.551",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 76,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.61.20180423.90837.996",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 61,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.45.20180423.90622.265",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 45,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.8.20180423.90007.48",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.29.20180423.90443.944",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.38.20180423.90538.62",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 38,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.9.20180423.90013.739",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.62.20180423.90847.595",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 62,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.65.20180423.90927.826",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 65,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.34.20180423.90519.49",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 34,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.15.20180423.90240.239",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.2.20180423.85855.861",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.66.20180423.90951.293",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 66,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.46.20180423.90634.952",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 46,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.40.20180423.90548.305",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 40,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.28.20180423.90437.662",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.68.20180423.91003.236",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 68,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.60.20180423.90833.331",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 60,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.21.20180423.90340.211",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.26.20180423.90429.883",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.53.20180423.90739.515",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 53,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.49.20180423.90701.399",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 49,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.20.20180423.90329.644",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.11.20180423.90114.531",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.47.20180423.90648.859",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 47,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.1.20180423.85835.549",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 1,
+          "title": "DERIVED\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.52.20180423.90736.389",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 52,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.3.20180423.85911.44",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.14.20180423.90206.877",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.75.20180423.91110.54",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 75,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.7.20180423.85957.78",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.58.20180423.90825.660",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 58,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.4.20180423.85916.543",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.48.20180423.90657.975",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 48,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.33.20180423.90512.532",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 33,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.25.20180423.90405.846",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.31.20180423.90457.204",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 31,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.73.20180423.91044.943",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 73,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.18.20180423.90318.659",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.24.20180423.90403.295",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.50.20180423.90713.645",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 50,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.57.20180423.90823.16",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 57,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.63.20180423.90906.782",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 63,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.39.20180423.90542.202",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 39,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.6.20180423.85952.738",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.13.20180423.90157.279",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.19.20180423.90321.883",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.55.20180423.90802.965",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 55,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.5.20180423.85926.969",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.30.20180423.90447.413",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\FETAL HEART"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113663.1500.1.377315162.2.1.20180423.91145.230",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "US",
+        "display": "US"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.82.20180423.91148.378",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 82,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.80.20180423.91148.188",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 80,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.77.20180423.91145.541",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 77,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.78.20180423.91147.938",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 78,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        }
+      ]
+    }
+  ]
+}

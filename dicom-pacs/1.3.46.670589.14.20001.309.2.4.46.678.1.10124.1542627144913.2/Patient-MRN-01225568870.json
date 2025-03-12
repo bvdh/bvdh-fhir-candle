@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-01225568870",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.33BE5A68.null",
+      "value": "07c7d9ef-dfc1-42b9-9823-eda348cbb5ad"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIQ CVx 3.0 Peds SR",
+      "family": "EPIQ CVx 3.0 Peds SR"
+    }
+  ],
+  "gender": "unknown"
+}

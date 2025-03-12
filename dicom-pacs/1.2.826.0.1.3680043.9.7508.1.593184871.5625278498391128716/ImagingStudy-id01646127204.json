@@ -1,0 +1,119 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id01646127204",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.826.0.1.3680043.9.7508.1.593184871.5625278498391128716"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "MR",
+      "display": "MR"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-11623295492",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.4505BAAB.06EB3D8C",
+      "value": "INCEPTO_KEROS_SR_QUALITATIVE"
+    }
+  },
+  "started": "2018-06-17T00:02:27+00:00",
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/AN-0772676510",
+      "identifier": {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "ACSN"
+            }
+          ]
+        },
+        "system": "http://myAccSystem",
+        "value": "ACC-CWjWKM3aIB24"
+      }
+    }
+  ],
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.2.826.0.1.3680043.9.7508.572222550813049281987775653840972544",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.826.0.1.3680043.9.7508.742455392777437576401544562663457280",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.7"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\SECONDARY"
+        },
+        {
+          "uid": "1.2.826.0.1.3680043.9.7508.851753121164739342685298785821756160",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.7"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\SECONDARY"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.826.0.1.3680043.9.7508.3.560208424.16957304387446087549191",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.826.0.1.3680043.9.7508.3.560208424.16957304387454355562192",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.34"
+          },
+          "number": 1,
+          "title": "Imaging Measurement Report"
+        }
+      ]
+    }
+  ]
+}

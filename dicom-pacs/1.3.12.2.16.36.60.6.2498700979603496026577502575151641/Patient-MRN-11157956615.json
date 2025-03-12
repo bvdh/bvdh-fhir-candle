@@ -1,0 +1,29 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-11157956615",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.E4302A17.06A4D34A",
+      "value": "123-456-789"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "Frank N. Study",
+      "family": "Frank N. Study"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1952-04-01"
+}

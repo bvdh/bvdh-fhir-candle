@@ -1,0 +1,228 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id1717645853",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.840.113663.1500.1.377315162.1.1.20180326.93503.985"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "US",
+      "display": "US"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-11978345325",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.93DD5EE1.null",
+      "value": "03350920180326"
+    }
+  },
+  "started": "2018-03-26T09:35:03+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.2.840.113663.1500.1.377315162.2.1.20180326.93503.987",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "US",
+        "display": "US"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.2.20180326.93711.819",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\OBSTETRICAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.3.20180326.93753.750",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\OBSTETRICAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.15.20180326.94138.805",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\OBSTETRICAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.12.20180326.94053.186",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\OBSTETRICAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.5.20180326.93902.305",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\OBSTETRICAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.13.20180326.94104.225",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\OBSTETRICAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.1.20180326.93656.219",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\OBSTETRICAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.8.20180326.94003.318",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\OBSTETRICAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.17.20180326.94202.105",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\OBSTETRICAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.18.20180326.94309.336",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\GYNECOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.14.20180326.94129.500",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\OBSTETRICAL"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.16.20180326.94157.769",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\OBSTETRICAL"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113663.1500.1.377315162.2.1.20180326.94449.377",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "US",
+        "display": "US"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.29.20180326.94503.811",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.28.20180326.94503.726",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.23.20180326.94503.282",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.24.20180326.94503.359",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.22.20180326.94503.153",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        }
+      ]
+    }
+  ]
+}

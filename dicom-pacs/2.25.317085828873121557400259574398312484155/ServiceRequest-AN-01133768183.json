@@ -1,0 +1,50 @@
+{
+  "resourceType": "ServiceRequest",
+  "id": "AN-01133768183",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "ACSN"
+          }
+        ]
+      },
+      "system": "http://myAccSystem",
+      "value": "20180515582"
+    }
+  ],
+  "status": "completed",
+  "intent": "order",
+  "category": [
+    {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "Imaging"
+        }
+      ]
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-0690194671",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.947BFF2C.null",
+      "value": "23092401"
+    }
+  },
+  "requester": {
+    "reference": "Practitioner/PN-0549901484"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-0970622898",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "033G08:20061108:090428200:033242",
+      "value": "RECHERCHE_IARIB^PAT_002"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "RECHERCHE_IARIB PAT_002",
+      "family": "RECHERCHE_IARIB",
+      "given": [
+        "PAT_002"
+      ]
+    }
+  ],
+  "gender": "other",
+  "birthDate": "1970-01-01"
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-01107065626",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.9D843406.null",
+      "value": "CCA_Cardiac Viewer"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "Cardiac 10 PhasesEbw",
+      "family": "Cardiac 10 PhasesEbw"
+    }
+  ],
+  "gender": "male"
+}

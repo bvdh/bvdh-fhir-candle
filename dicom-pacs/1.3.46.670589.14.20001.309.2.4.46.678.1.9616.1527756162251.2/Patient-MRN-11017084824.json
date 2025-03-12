@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-11017084824",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.BEE034B2.null",
+      "value": "d23ff1ac-efe5-4e50-8d89-3284124dbcad"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIQ 4.0 Ped Echo SR",
+      "family": "EPIQ 4.0 Ped Echo SR"
+    }
+  ],
+  "gender": "unknown"
+}

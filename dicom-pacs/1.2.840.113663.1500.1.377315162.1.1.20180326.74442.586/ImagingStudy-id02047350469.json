@@ -1,0 +1,613 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id02047350469",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.840.113663.1500.1.377315162.1.1.20180326.74442.586"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "US",
+      "display": "US"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-11818531788",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.EB94F4B2.null",
+      "value": "42440720180326"
+    }
+  },
+  "started": "2018-03-26T07:44:42+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.2.840.113663.1500.1.377315162.2.1.20180326.74442.588",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "US",
+        "display": "US"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.60.20180326.81522.779",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 60,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.27.20180326.80049.852",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 27,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.22.20180326.75530.761",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.34.20180326.80436.674",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 34,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.21.20180326.75454.794",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.20.20180326.75439.177",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.52.20180326.80824.689",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 52,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.25.20180326.75653.233",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.26.20180326.80016.429",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.38.20180326.80535.359",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 38,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.39.20180326.80538.422",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 39,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.37.20180326.80512.358",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 37,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.72.20180326.81705.215",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 72,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.56.20180326.81302.334",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 56,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.5.20180326.74644.627",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.59.20180326.81435.206",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 59,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.75.20180326.81705.485",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 75,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.18.20180326.75350.99",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.2.20180326.74543.790",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.50.20180326.80716.336",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 50,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.28.20180326.80113.4",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.42.20180326.80549.537",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 42,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.45.20180326.80558.577",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 45,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.30.20180326.80324.981",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.35.20180326.80445.359",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 35,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.8.20180326.74750.173",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.13.20180326.75036.336",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.11.20180326.74904.800",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.63.20180326.81704.394",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 63,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.58.20180326.81404.856",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 58,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.61.20180326.81546.851",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 61,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.49.20180326.80613.811",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 49,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.23.20180326.75541.229",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.12.20180326.74956.460",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.29.20180326.80317.642",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.64.20180326.81704.470",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 64,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.54.20180326.81023.314",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 54,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.66.20180326.81704.654",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 66,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.1.20180326.74523.532",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.74.20180326.81705.382",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 74,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.68.20180326.81704.837",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 68,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.44.20180326.80555.588",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 44,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.32.20180326.80404.935",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 32,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.70.20180326.81705.29",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 70,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.17.20180326.75329.108",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.7.20180326.74738.406",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.15.20180326.75228.311",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.47.20180326.80605.887",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 47,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.71.20180326.81705.97",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 71,
+          "title": "ORIGINAL\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.9.20180326.74830.581",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.43.20180326.80552.516",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 43,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.36.20180326.80452.150",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 36,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.10.20180326.74855.393",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.6.20180326.74712.558",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.3.16.20180326.75315.491",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\CARDIOLOGY"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113663.1500.1.377315162.9.1.20180326.74442.588",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "PR",
+        "display": "PR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.10.2.20180326.81302.364",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.3.46.670589.2.5.1.1"
+          },
+          "number": 2
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.10.3.20180326.81320.527",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.3.46.670589.2.5.1.1"
+          },
+          "number": 3
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.10.1.20180326.81110.144",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.3.46.670589.2.5.1.1"
+          },
+          "number": 1
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113663.1500.1.377315162.7.1.20180326.74442.588",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.377315162.8.1.20180326.81929.628",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.33"
+          },
+          "number": 1,
+          "title": "Adult Echocardiography Procedure Report"
+        }
+      ]
+    }
+  ]
+}

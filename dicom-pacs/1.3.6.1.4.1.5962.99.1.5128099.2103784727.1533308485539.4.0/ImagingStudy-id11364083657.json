@@ -1,0 +1,4718 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id11364083657",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.4.0"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "CT",
+      "display": "CT"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-0227989959",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.F155B4EB.null",
+      "value": "NOID"
+    }
+  },
+  "started": "2000-01-01T00:00:00+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.5.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.334.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 165,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.602.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 299,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.946.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 471,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.100.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 48,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.170.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 83,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.72.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 34,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.882.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 439,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.784.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 390,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.110.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 53,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.308.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 152,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.440.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 218,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.826.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 411,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.750.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 373,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.514.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 255,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.852.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 424,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.318.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 157,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.492.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 244,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.794.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 395,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.462.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 229,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.728.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 362,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.420.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 208,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.880.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 438,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.502.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 249,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.88.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 42,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1022.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 509,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.390.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 193,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.488.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 242,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.204.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 100,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.112.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 54,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.56.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 26,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.62.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 29,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.980.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 488,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.930.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 463,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.922.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 459,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.490.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 243,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.944.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 470,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.414.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 205,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.290.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 143,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.696.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 346,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1004.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 500,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.580.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 288,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.920.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 458,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.26.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 11,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.340.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 168,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.996.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 496,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.28.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 12,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.838.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 417,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.480.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 238,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.304.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 150,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.570.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 283,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.396.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 196,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.926.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 461,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.898.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 447,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.32.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 14,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.630.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 313,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.850.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 423,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.624.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 310,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.910.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 453,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.64.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 30,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.680.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 338,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.388.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 192,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.378.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 187,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.260.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 128,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.500.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 248,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.982.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 489,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.802.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 399,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.678.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 337,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.866.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 431,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.332.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 164,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.324.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 160,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.998.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 497,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.266.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 131,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.34.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 15,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.640.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 318,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.442.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 219,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.430.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 213,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.428.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 212,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.120.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 58,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.848.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 422,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.250.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 123,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.976.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 486,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.386.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 191,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.408.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 202,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1030.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 513,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.948.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 472,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.576.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 286,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.198.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 97,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.286.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 141,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.316.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 156,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.296.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 146,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.764.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 380,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.66.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 31,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.894.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 445,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.400.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 198,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.30.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 13,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.384.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 190,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.842.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 419,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.496.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 246,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.978.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 487,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1018.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 507,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.108.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 52,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.470.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 233,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.936.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 466,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.578.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 287,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.868.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 432,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.950.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 473,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.888.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 442,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.970.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 483,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.836.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 416,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.538.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 267,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.104.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 50,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.258.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 127,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.700.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 348,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1000.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 498,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.674.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 335,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.760.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 378,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1010.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 503,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.200.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 98,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.544.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 270,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.686.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 341,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.192.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 94,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.270.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 133,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.448.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 222,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.512.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 254,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.606.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 301,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.756.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 376,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.792.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 394,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.292.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 144,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1008.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 502,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.648.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 322,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.208.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 102,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.342.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 169,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.328.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 162,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.74.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 35,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.878.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 437,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.510.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 253,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.60.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 28,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.854.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 425,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.478.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 237,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.586.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 291,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.268.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 132,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.720.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 358,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.280.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 138,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.372.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 184,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.402.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 199,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.620.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 308,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.988.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 492,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.354.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 175,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.476.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 236,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.222.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 109,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.458.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 227,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.566.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 281,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.708.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 352,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.676.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 336,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.818.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 407,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.604.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 300,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.410.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 203,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.626.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 311,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.24.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 10,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.226.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 111,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.90.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 43,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.152.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 74,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.404.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 200,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.546.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 271,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.516.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 256,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.900.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 448,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.896.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 446,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.80.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 38,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.114.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 55,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.986.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 491,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.188.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 92,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.660.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 328,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.262.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 129,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.160.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 78,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.416.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 206,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.320.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 158,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.336.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 166,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.86.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 41,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.692.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 344,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.142.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 69,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.362.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 179,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.368.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 182,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.156.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 76,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.274.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 135,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.736.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 366,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.122.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 59,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.726.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 361,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.278.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 137,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.916.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 456,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.918.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 457,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.814.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 405,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.394.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 195,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.788.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 392,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.522.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 259,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.424.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 210,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.238.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 117,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.846.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 421,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.662.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 329,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.508.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 252,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.46.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 21,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.130.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 63,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.228.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 112,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.798.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 397,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.532.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 264,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.558.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 277,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.924.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 460,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.504.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 250,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.972.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 484,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1002.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 499,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.254.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 125,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1036.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 516,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.300.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 148,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.128.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 62,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.454.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 225,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.622.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 309,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.658.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 327,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.370.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 183,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.380.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 188,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.672.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 334,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.552.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 274,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.68.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 32,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.974.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 485,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.744.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 370,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.186.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 91,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1038.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 517,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.194.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 95,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.98.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 47,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.520.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 258,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.904.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 450,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.392.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 194,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.528.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 262,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.8.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 2,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.890.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 443,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.808.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 402,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.44.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 20,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.78.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 37,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.436.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 216,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.294.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 145,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.38.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 17,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.518.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 257,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.398.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 197,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.282.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 139,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.154.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 75,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.652.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 324,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.724.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 360,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.706.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 351,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.954.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 475,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.574.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 285,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.956.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 476,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.134.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 65,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.444.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 220,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1032.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 514,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.912.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 454,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.180.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 88,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.614.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 305,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.702.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 349,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.598.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 297,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.92.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 44,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.432.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 214,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.256.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 126,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.158.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 77,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.146.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 71,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.722.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 359,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.346.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 171,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.684.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 340,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1016.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 506,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.530.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 263,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.774.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 385,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.140.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 68,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.306.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 151,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.872.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 434,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1020.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 508,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.20.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 8,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.754.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 375,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.902.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 449,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.770.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 383,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.772.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 384,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.830.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 413,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.54.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 25,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.76.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 36,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.450.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 223,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.906.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 451,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.666.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 331,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.824.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 410,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.568.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 282,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.628.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 312,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.172.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 84,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1034.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 515,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.310.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 153,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.748.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 372,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.236.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 116,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.968.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 482,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.48.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 22,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.874.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 435,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.360.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 178,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.656.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 326,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.928.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 462,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.642.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 319,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.196.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 96,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.714.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 355,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.364.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 180,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.232.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 114,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.474.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 235,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.16.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 6,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.136.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 66,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.654.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 325,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.952.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 474,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.812.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 404,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.608.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 302,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.822.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 409,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.272.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 134,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.908.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 452,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.242.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 119,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.284.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 140,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.244.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 120,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.938.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 467,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.768.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 382,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.596.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 296,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.3.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.994.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 495,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.778.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 387,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.636.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 316,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.734.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 365,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.934.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 465,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.138.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 67,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.668.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 332,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.302.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 149,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.50.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 23,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.612.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 304,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.704.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 350,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.534.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 265,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.40.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 18,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.914.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 455,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.84.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 40,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.592.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 294,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.766.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 381,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.524.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 260,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.382.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 189,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.886.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 441,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.550.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 273,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.312.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 154,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.776.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 386,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.984.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 490,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.18.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 7,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.42.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 19,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.644.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 320,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.796.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 396,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1006.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 501,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1012.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 504,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.246.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 121,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.690.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 343,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1014.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 505,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.248.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 122,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.426.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 211,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.876.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 436,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.82.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 39,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.468.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 232,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.942.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 469,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.322.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 159,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.590.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 293,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.840.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 418,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.252.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 124,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.816.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 406,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.864.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 430,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.276.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 136,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.102.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 49,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.22.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 9,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.600.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 298,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.144.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 70,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.932.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 464,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.348.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 172,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.350.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 173,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.178.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 87,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.126.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 61,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.12.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 4,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.412.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 204,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.688.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 342,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.992.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 494,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.716.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 356,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.540.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 268,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.132.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 64,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.472.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 234,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.858.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 427,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.106.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 51,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.434.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 215,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.218.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 107,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.806.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 401,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.466.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 231,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.452.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 224,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.536.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 266,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.790.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 393,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.564.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 280,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.168.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 82,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.634.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 315,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.374.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 185,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.52.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 24,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.182.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 89,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.746.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 371,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.560.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 278,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.526.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 261,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.670.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 333,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.650.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 323,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.940.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 468,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.618.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 307,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.366.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 181,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.506.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 251,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.10.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 3,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.562.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 279,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.356.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 176,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.860.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 428,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.962.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 479,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.884.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 440,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.804.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 400,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.494.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 245,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.958.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 477,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.572.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 284,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.486.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 241,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.548.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 272,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.94.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 45,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.582.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 289,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.960.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 478,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.694.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 345,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.758.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 377,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.712.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 354,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.870.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 433,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.338.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 167,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.344.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 170,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.588.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 292,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.484.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 240,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.164.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 80,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.990.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 493,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.964.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 480,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.264.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 130,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.810.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 403,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.58.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 27,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.542.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 269,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.14.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 5,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1026.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 511,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.732.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 364,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.610.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 303,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.594.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 295,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.828.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 412,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.632.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 314,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.742.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 369,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.36.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 16,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.124.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 60,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.210.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 103,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.150.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 73,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.482.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 239,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.780.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 388,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.358.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 177,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.230.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 113,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.740.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 368,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.202.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 99,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.418.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 207,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.422.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 209,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.556.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 276,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1024.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 510,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.438.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 217,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.376.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 186,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.646.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 321,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.216.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 106,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.730.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 363,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.162.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 79,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.718.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 357,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.892.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 444,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.800.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 398,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.234.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 115,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.174.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 85,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.1028.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 512,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.446.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 221,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.148.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 72,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.166.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 81,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.616.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 306,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.786.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 391,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.498.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 247,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.782.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 389,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.330.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 163,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.406.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 201,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.326.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 161,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.176.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 86,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.738.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 367,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.664.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 330,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.862.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 429,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.184.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 90,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.96.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 46,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.70.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 33,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.298.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 147,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.638.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 317,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.820.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 408,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.460.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 228,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.682.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 339,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.966.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 481,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.710.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 353,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.240.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 118,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.214.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 105,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.314.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 155,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.834.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 415,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.224.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 110,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.554.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 275,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.832.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 414,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.212.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 104,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.352.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 174,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.220.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 108,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.698.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 347,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.190.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 93,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.118.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 57,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.856.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 426,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.584.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 290,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.116.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 56,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.456.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 226,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.206.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 101,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.288.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 142,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.464.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 230,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.752.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 374,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.762.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 379,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.5128099.2103784727.1533308485539.844.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 420,
+          "title": "DERIVED\\PRIMARY\\AXIAL"
+        }
+      ]
+    }
+  ]
+}

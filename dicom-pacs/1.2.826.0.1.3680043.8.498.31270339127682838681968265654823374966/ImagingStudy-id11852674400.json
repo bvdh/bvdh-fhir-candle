@@ -1,0 +1,211 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id11852674400",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.826.0.1.3680043.8.498.31270339127682838681968265654823374966"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "MR",
+      "display": "MR"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-0645272811",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.A3D7A56A.8D4F55C0",
+      "value": "HYPERFINE04"
+    }
+  },
+  "started": "2022-08-10T14:27:31+00:00",
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/AN-11849529180",
+      "identifier": {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "ACSN"
+            }
+          ]
+        },
+        "system": "http://myAccSystem",
+        "value": "HYPERFINE04"
+      }
+    }
+  ],
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "2.25.146045546660827737780653968739537391237",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "2.25.188063412155219899649951762128626682811",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\T2 MAP\\NONE"
+        },
+        {
+          "uid": "2.25.7066061723897767746043887497075880171",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\T2 MAP\\NONE"
+        },
+        {
+          "uid": "2.25.64905194741713705787232320303950659266",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\T2 MAP\\NONE"
+        },
+        {
+          "uid": "2.25.239159568295394724398908894020530617548",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\T2 MAP\\NONE"
+        },
+        {
+          "uid": "2.25.308096839386351841720101433291005144242",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\T2 MAP\\NONE"
+        },
+        {
+          "uid": "2.25.34494294564419730411074903452963903662",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\T2 MAP\\NONE"
+        },
+        {
+          "uid": "2.25.112215264507100369739360716822764946429",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\T2 MAP\\NONE"
+        },
+        {
+          "uid": "2.25.163225162491739169235010390739957422636",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\T2 MAP\\NONE"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.826.0.1.3680043.8.498.14816918228065239900296692911722178519",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.826.0.1.3680043.8.498.70410462654111521209057953190592458769",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.34"
+          },
+          "number": 1,
+          "title": "Imaging Measurement Report"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.826.0.1.3680043.8.498.83840293344393867609085584355750505615",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.826.0.1.3680043.8.498.66601739955098800574622773052296298881",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.34"
+          },
+          "number": 1,
+          "title": "Imaging Measurement Report"
+        }
+      ]
+    },
+    {
+      "uid": "2.25.271724059185648996605223690171156052138",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "MR",
+        "display": "MR"
+      },
+      "instance": [
+        {
+          "uid": "2.25.205214143440721965671488085039760564019",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.4"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\T2 MAP\\NONE"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "resourceType": "Practitioner",
+  "id": "PN-1942024425",
+  "name": [
+    {
+      "text": "Dr. Johnson Cave M.D.",
+      "family": "Johnson",
+      "given": [
+        "Cave"
+      ],
+      "prefix": [
+        "Dr."
+      ],
+      "suffix": [
+        "M.D."
+      ]
+    }
+  ]
+}

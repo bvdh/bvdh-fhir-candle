@@ -1,0 +1,29 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-11476959941",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.1014BA94.01E8E2B1",
+      "value": "CAINbg012"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "ChestAI_Nbg012",
+      "family": "ChestAI_Nbg012"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1929-01-01"
+}

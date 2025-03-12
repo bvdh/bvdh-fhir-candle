@@ -1,0 +1,27 @@
+{
+  "resourceType": "Endpoint",
+  "id": "ID-11042093228",
+  "status": "active",
+  "connectionType": {
+    "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+    "code": "dicom-wado-rs",
+    "display": "DICOM WADO-RS"
+  },
+  "name": "PACS Hospital DICOM WADO-RS endpoint",
+  "payloadType": [
+    {
+      "coding": [
+        {
+          "system": "http://terminology.hl7.org/CodeSystem/endpoint-connection-type",
+          "code": "dicom-wado-rs",
+          "display": "DICOM WADO-RS"
+        }
+      ]
+    }
+  ],
+  "payloadMimeType": [
+    "application/dicom+xml",
+    "application/dicom+json"
+  ],
+  "address": "http://92.108.246.183:8041/dcm4chee-arc/aets/DCM4CHEE/rs"
+}

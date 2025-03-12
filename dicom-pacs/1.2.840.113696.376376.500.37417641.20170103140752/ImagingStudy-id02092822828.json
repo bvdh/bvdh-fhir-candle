@@ -1,0 +1,91 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id02092822828",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.840.113696.376376.500.37417641.20170103140752"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "SR",
+      "display": "SR"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-1119845982",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "REDACTED",
+      "value": "WMLD_tests_002"
+    }
+  },
+  "started": "2018-03-21T09:40:21+00:00",
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/AN-0143450998",
+      "identifier": {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "ACSN"
+            }
+          ]
+        },
+        "system": "http://myAccSystem",
+        "value": "REDACTED"
+      }
+    }
+  ],
+  "referrer": {
+    "reference": "Practitioner/PN-11260160602"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.3.12.2.1107.5.8.21.147795098661864553144079618078097569603",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.12.2.1107.5.8.21.311726669169823089425491180356470788089",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.34"
+          },
+          "number": 1,
+          "title": "Imaging Measurement Report"
+        }
+      ]
+    }
+  ]
+}

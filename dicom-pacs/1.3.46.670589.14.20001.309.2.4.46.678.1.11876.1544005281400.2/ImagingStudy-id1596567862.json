@@ -1,0 +1,202 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id1596567862",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005281400.2"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "US",
+      "display": "US"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-12090170825",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.6BD5297B.null",
+      "value": "e8c2acfd-bde4-4035-b8be-dccf4083e1c3"
+    }
+  },
+  "started": "2016-01-19T13:56:57+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005284744.2",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "US",
+        "display": "US"
+      },
+      "instance": [
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005284744",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 16,
+          "title": "DERIVED\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005284854",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 14,
+          "title": "DERIVED\\PRIMARY\\INVALID"
+        },
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005284760",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 17,
+          "title": "DERIVED\\PRIMARY\\INVALID"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005284994.2",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005284994",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.33"
+          },
+          "number": 1,
+          "title": "Adult Echocardiography Procedure Report"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005281400.3",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "US",
+        "display": "US"
+      },
+      "instance": [
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005282463",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 15,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005281978",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 13,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005284244",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 27,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005281728",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 12,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005282244",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 14,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005284526",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 28,
+          "title": "DERIVED\\PRIMARY\\PEDIATRIC"
+        },
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005282728",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 16,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005281400",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 2,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        },
+        {
+          "uid": "1.3.46.670589.14.20001.309.2.4.46.678.1.11876.1544005283025",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.3.1"
+          },
+          "number": 23,
+          "title": "DERIVED\\PRIMARY\\CARDIOLOGY"
+        }
+      ]
+    }
+  ]
+}

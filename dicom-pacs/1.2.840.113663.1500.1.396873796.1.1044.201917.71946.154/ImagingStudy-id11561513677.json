@@ -1,0 +1,237 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id11561513677",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.840.113663.1500.1.396873796.1.1044.201917.71946.154"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "US",
+      "display": "US"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-0280859101",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.8952EDDF.null",
+      "value": "27120720190107"
+    }
+  },
+  "started": "2019-01-07T07:12:27+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.2.840.113663.1500.1.396873796.12.1269.201917.71946.185",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "US",
+        "display": "US"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.288.201917.71946.182",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.299.201917.71946.185",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.290.201917.71946.182",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.278.201917.71946.178",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.285.201917.71946.181",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.292.201917.71946.183",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.281.201917.71946.179",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.298.201917.71946.185",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.287.201917.71946.181",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.283.201917.71946.180",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.282.201917.71946.179",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.284.201917.71946.181",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.296.201917.71946.184",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.291.201917.71946.182",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.280.201917.71946.179",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.279.201917.71946.179",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        },
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.19.295.201917.71946.184",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.6.1"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\VASCULAR"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113663.1500.1.396873796.10.1270.201917.71946.187",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113663.1500.1.396873796.8.1.20190107.72014.828",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.33"
+          },
+          "number": 1,
+          "title": "Vascular Ultrasound Procedure Report"
+        }
+      ]
+    }
+  ]
+}

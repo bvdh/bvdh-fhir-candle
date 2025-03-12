@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-11978345325",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.93DD5EE1.null",
+      "value": "03350920180326"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIG7 OB GYN",
+      "family": "EPIG7 OB GYN"
+    }
+  ],
+  "gender": "female"
+}

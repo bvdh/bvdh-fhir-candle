@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-1119845982",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "REDACTED",
+      "value": "WMLD_tests_002"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "ECR2022_AIRC_BrainMR2",
+      "family": "ECR2022_AIRC_BrainMR2"
+    }
+  ],
+  "gender": "male"
+}

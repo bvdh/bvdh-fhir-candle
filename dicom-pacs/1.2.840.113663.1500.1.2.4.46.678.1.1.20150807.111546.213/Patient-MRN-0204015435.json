@@ -1,0 +1,45 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-0204015435",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.D7829A9F.089276EA",
+      "value": "2141254"
+    },
+    {
+      "use": "secondary",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "value": "457525323"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "Adult Echo SR Test Sample Fname",
+      "family": "Adult Echo SR Test Sample",
+      "given": [
+        "Fname"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1966-12-12"
+}

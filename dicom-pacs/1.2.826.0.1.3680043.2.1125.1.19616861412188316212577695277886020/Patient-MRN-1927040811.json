@@ -1,0 +1,40 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-1927040811",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.CBCBC8BF.8A1E0286",
+      "value": "00014"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "LN00014 GN00014",
+      "family": "LN00014",
+      "given": [
+        "GN00014"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "2006-01-01",
+  "_birthDate": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+        "valueDateTime": "2006-01-01T01:01:00+00:00"
+      }
+    ]
+  }
+}

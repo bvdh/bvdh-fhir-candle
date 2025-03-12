@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-12090170825",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.6BD5297B.null",
+      "value": "e8c2acfd-bde4-4035-b8be-dccf4083e1c3"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIQ CVx 5.0 AutoStrain LV,LA,RV SR",
+      "family": "EPIQ CVx 5.0 AutoStrain LV,LA,RV SR"
+    }
+  ],
+  "gender": "unknown"
+}

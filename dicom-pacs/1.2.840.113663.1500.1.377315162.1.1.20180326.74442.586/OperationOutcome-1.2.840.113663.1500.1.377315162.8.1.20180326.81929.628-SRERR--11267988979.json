@@ -1,0 +1,11 @@
+{
+  "resourceType": "OperationOutcome",
+  "id": "1.2.840.113663.1500.1.377315162.8.1.20180326.81929.628-SRERR--11267988979",
+  "issue": [
+    {
+      "severity": "error",
+      "code": "processing",
+      "diagnostics": "This implementation only supports the 1500 template."
+    }
+  ]
+}

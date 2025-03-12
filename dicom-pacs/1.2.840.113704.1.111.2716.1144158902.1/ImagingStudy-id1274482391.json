@@ -1,0 +1,623 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id1274482391",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.2.840.113704.1.111.2716.1144158902.1"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "ECG\\CT\\SR",
+      "display": "ECG\\CT\\SR"
+    },
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "CT",
+      "display": "CT"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-1601881864",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "pacsdemo_iss",
+      "value": "200965981425"
+    }
+  },
+  "started": "2019-04-04T15:55:02+00:00",
+  "basedOn": [
+    {
+      "reference": "ServiceRequest/AN-1338711400",
+      "identifier": {
+        "type": {
+          "coding": [
+            {
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+              "code": "ACSN"
+            }
+          ]
+        },
+        "system": "http://myAccSystem",
+        "value": "9275000039584"
+      }
+    }
+  ],
+  "referrer": {
+    "reference": "Practitioner/PN-01329746640"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "numberOfInstances": 55,
+  "series": [
+    {
+      "uid": "1.2.840.113704.1.111.2716.1144159124.7",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159223.6519",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159224.6525",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159228.6546",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 34,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159230.6554",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 42,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159222.6517",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159229.6553",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 41,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159222.6514",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159225.6531",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159231.6560",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 48,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159230.6558",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 46,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159228.6548",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 36,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159230.6555",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 43,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159225.6533",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159226.6535",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159227.6540",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159222.6515",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159224.6528",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159229.6552",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 40,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159224.6524",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159225.6530",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159230.6557",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 45,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159228.6547",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 35,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159229.6550",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 38,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159222.6516",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159226.6538",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159223.6522",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159221.6513",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159226.6537",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159223.6523",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159224.6527",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159226.6539",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 27,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159225.6529",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159229.6551",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 39,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159225.6532",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159228.6544",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 32,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159227.6542",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159224.6526",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159223.6520",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159222.6518",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159223.6521",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159228.6545",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 33,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159226.6534",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159227.6541",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159226.6536",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159230.6559",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 47,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159227.6543",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 31,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159228.6549",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 37,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159230.6556",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 44,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113704.1.111.2716.1144159000.3",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113704.7.1.1.5160.1144159021.2",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\LOCALIZER\\ES"
+        },
+        {
+          "uid": "1.2.840.113704.1.111.2296.1144159021.6512",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\LOCALIZER"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.1.3884.1144159163.1",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\LOCALIZER\\PS"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113704.7.1.0.143570228225.1158160448.90",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113704.7.1.0.143570228225.1158160709.95",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.7"
+          },
+          "number": 14,
+          "title": "DERIVED\\SECONDARY\\MPR\\LOCALIZER"
+        },
+        {
+          "uid": "1.2.840.113704.7.1.0.143570228225.1158160667.94",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.7"
+          },
+          "number": 13,
+          "title": "DERIVED\\SECONDARY\\MPR\\LOCALIZER"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113704.1.111.2716.1144159234.10",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "ECG",
+        "display": "ECG"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113704.1.111.2716.1144159234.9",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.9.1.2"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\WAVEFORM"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.840.113704.7.1.1.2885006872.3606943795.62162.90.18.35897932",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.840.113704.7.1.0.13910822547198194.1569503110.46",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.33"
+          },
+          "number": 1,
+          "title": "Radiology Report"
+        }
+      ]
+    }
+  ]
+}

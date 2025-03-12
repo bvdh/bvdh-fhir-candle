@@ -1,0 +1,128 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id12011004303",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.3.6.1.4.1.5962.99.1.3589136897.1737700660.1695806284288.5.0"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "SR",
+      "display": "SR"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-02059434699",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.1CDC96B1.null",
+      "value": "IHE23C08ALL"
+    }
+  },
+  "started": "1970-01-01T00:00:00+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.2.826.0.1.3680043.10.457.2153361742480760254958084582143249788",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.2.826.0.1.3680043.10.457.6660924539496322337439273479114175870",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.34"
+          },
+          "number": 401,
+          "title": "Imaging Measurement Report"
+        },
+        {
+          "uid": "1.2.826.0.1.3680043.10.457.2254199398458898721984353379540314208",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.34"
+          },
+          "number": 401,
+          "title": "Imaging Measurement Report"
+        }
+      ]
+    },
+    {
+      "uid": "1.2.826.0.1.3680043.10.457.1696024497574766484494830684310509495",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SC",
+        "display": "SC"
+      },
+      "instance": [
+        {
+          "uid": "1.2.826.0.1.3680043.10.457.9207060120015227051848871682843206577",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.7"
+          },
+          "number": 1
+        },
+        {
+          "uid": "1.2.826.0.1.3680043.10.457.1169360056114329239104745922730621216",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.7"
+          },
+          "number": 1
+        }
+      ]
+    },
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.3589136897.1737700660.1695806284288.6.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "DX",
+        "display": "DX"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.3589136897.1737700660.1695806284288.4.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.1.1"
+          },
+          "number": 1,
+          "title": "DERIVED\\PRIMARY"
+        }
+      ]
+    }
+  ]
+}

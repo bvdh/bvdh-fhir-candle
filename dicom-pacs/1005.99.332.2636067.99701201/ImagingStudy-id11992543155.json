@@ -1,0 +1,119 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id11992543155",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1005.99.332.2636067.99701201"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "SR",
+      "display": "SR"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-11476959941",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.1014BA94.01E8E2B1",
+      "value": "CAINbg012"
+    }
+  },
+  "started": "2018-03-28T13:26:26+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.3.12.2.1107.5.8.21.35435639576546799921272038056642182183",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "SR",
+        "display": "SR"
+      },
+      "instance": [
+        {
+          "uid": "1.3.12.2.1107.5.8.21.201127438376546755414588951417285949114",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.34"
+          },
+          "number": 6,
+          "title": "Imaging Measurement Report"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.8.21.201064171041547834541734339871124296438",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.34"
+          },
+          "number": 4,
+          "title": "Imaging Measurement Report"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.8.21.130237174531671100144202630639862627736",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.34"
+          },
+          "number": 1,
+          "title": "Imaging Measurement Report"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.8.21.311382324908333584264797654583044491990",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.34"
+          },
+          "number": 3,
+          "title": "Imaging Measurement Report"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.8.21.235927699574709965554963575304141127085",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.34"
+          },
+          "number": 5,
+          "title": "Imaging Measurement Report"
+        },
+        {
+          "uid": "1.3.12.2.1107.5.8.21.168162150764585351564001441079297069605",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.88.34"
+          },
+          "number": 2,
+          "title": "Imaging Measurement Report"
+        }
+      ]
+    }
+  ]
+}

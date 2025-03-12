@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-11047425130",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.CAFA6895.null",
+      "value": "d14eb0d7-212a-48d7-bf79-3250d39e1011"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIQ CVx 7.x_Peds SR",
+      "family": "EPIQ CVx 7.x_Peds SR"
+    }
+  ],
+  "gender": "unknown"
+}

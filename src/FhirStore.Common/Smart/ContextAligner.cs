@@ -3,13 +3,20 @@ using FhirCandle.Models;
 using FhirCandle.Storage;
 using Hl7.Fhir.Model;
 using Hl7.Fhir.Rest;
+using Hl7.Fhir.Serialization;
 
 namespace FhirCandle.Smart
 {
     public class ContextAligner(string fhirServerUrl, IFhirStore store)
     {
         private readonly string _fhirServerUrl = fhirServerUrl;
-        private readonly FhirClient _fhirClient = new(fhirServerUrl);
+        private readonly FhirClient _fhirClient = new(fhirServerUrl, new FhirClientSettings()
+        {
+            ParserSettings = new ParserSettings()
+            {
+                PermissiveParsing = true
+            }
+        });
 
         public async Task<string?> GetMatchingPatientId(string foreignPatientId )
         {
@@ -104,7 +111,7 @@ namespace FhirCandle.Smart
                     Authorization = null,
                 };
                 store.TypeSearch(ctx, out FhirResponseContext opResponse);
-                if (opResponse.StatusCode != HttpStatusCode.OK)
+                if (opResponse.StatusCode == HttpStatusCode.OK)
                 {
                     List<ImagingStudy> imagingStudyList =(opResponse.Resource as Bundle ?? new Bundle()).Entry
                             .Select(e => e.Resource)

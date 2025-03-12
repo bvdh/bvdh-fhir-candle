@@ -1,0 +1,40 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-1319995172",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "pacsdemo_iss",
+      "value": "RS10346006"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "SCOTT STELLA",
+      "family": "SCOTT",
+      "given": [
+        "STELLA"
+      ]
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1996-01-01",
+  "_birthDate": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+        "valueDateTime": "1996-01-01T00:00:00+00:00"
+      }
+    ]
+  }
+}

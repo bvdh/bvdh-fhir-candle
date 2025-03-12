@@ -1,0 +1,29 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-0397554320",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.73DEA41B.083D7CEF",
+      "value": "1006"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "salmeron",
+      "family": "salmeron"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1960-04-09"
+}

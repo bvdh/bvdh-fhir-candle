@@ -1,0 +1,29 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-1561246258",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.CDF265D4.FE0E756B",
+      "value": "2008.10.6.11.27.20"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "CT_TaskflowBasicReading_HEAD_344",
+      "family": "CT_TaskflowBasicReading_HEAD_344"
+    }
+  ],
+  "gender": "other",
+  "birthDate": "1901-01-01"
+}

@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-11656159227",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.7870C819.null",
+      "value": "7c2719b0-d130-49d3-b3c0-3d5b70e2a1ec"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIQ 7C 2.0 2D Adult Echo SR",
+      "family": "EPIQ 7C 2.0 2D Adult Echo SR"
+    }
+  ],
+  "gender": "unknown"
+}

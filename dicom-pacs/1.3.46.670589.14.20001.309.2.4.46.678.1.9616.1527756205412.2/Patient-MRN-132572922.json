@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-132572922",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.452D5285.null",
+      "value": "376c36ef-2151-4bb8-b190-f1b625c5d7e4"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIQ 4.0 Vascular SR",
+      "family": "EPIQ 4.0 Vascular SR"
+    }
+  ],
+  "gender": "unknown"
+}

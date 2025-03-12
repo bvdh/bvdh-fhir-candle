@@ -1,0 +1,28 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-0359045740",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.ABF4441D.null",
+      "value": "b4d47097-ee31-4ded-9037-f49642847860"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "EPIQ 4.0 Adult Echo SR",
+      "family": "EPIQ 4.0 Adult Echo SR"
+    }
+  ],
+  "gender": "unknown"
+}

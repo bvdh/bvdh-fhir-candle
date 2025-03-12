@@ -1,0 +1,45 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-01333289888",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.5053DAFC.083D796B",
+      "value": "PAT ID!c5039234-cbc9-4b45-b225-5d1375964a0f"
+    },
+    {
+      "use": "secondary",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "value": "ALT ID\\PAT ID"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "LAST CVx 3.0 FIRST",
+      "family": "LAST CVx 3.0",
+      "given": [
+        "FIRST"
+      ]
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1960-03-28"
+}

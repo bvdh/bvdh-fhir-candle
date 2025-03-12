@@ -1,0 +1,2832 @@
+{
+  "resourceType": "ImagingStudy",
+  "id": "id11383928489",
+  "identifier": [
+    {
+      "type": {
+        "coding": [
+          {
+            "system": "http://hl7.org/fhir/uv/dicom-sr/CodeSystem/dicom-identifier-type",
+            "code": "study-instance-uid",
+            "display": "Study Instance UID"
+          }
+        ]
+      },
+      "system": "urn:dicom:uid",
+      "value": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2592.0"
+    }
+  ],
+  "status": "available",
+  "modality": [
+    {
+      "system": "http://dicom.nema.org/resources/ontology/DCM",
+      "code": "CT",
+      "display": "CT"
+    }
+  ],
+  "subject": {
+    "reference": "Patient/MRN-0227989959",
+    "identifier": {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.F155B4EB.null",
+      "value": "NOID"
+    }
+  },
+  "started": "2010-08-06T01:04:34+00:00",
+  "referrer": {
+    "reference": "Practitioner/PN-11597594878"
+  },
+  "endpoint": [
+    {
+      "reference": "Endpoint/ID-11042093228"
+    }
+  ],
+  "series": [
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2702.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2755.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 54,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2806.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 105,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2791.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 90,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2803.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 102,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2741.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 40,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2766.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 65,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2748.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 47,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2794.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 93,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2790.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 89,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2785.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 84,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2726.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 25,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2762.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 61,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2758.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 57,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2729.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 28,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2811.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 110,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2810.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 109,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2721.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 20,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2789.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 88,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2800.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 99,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2739.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 38,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2754.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 53,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2744.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 43,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2796.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 95,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2788.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 87,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2725.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 24,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2731.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 30,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2742.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 41,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2767.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 66,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2760.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 59,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2730.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 29,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2736.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 35,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2782.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 81,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2797.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 96,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2773.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 72,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2707.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 6,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2801.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 100,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2709.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 8,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2798.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 97,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2727.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 26,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2804.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 103,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2756.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 55,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2764.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 63,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2777.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 76,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2780.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 79,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2733.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 32,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2735.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 34,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2723.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 22,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2746.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 45,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2781.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 80,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2786.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 85,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2795.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 94,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2737.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 36,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2812.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 111,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2724.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 23,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2769.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 68,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2749.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 48,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2763.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 62,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2750.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 49,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2793.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 92,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2808.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 107,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2715.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 14,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2710.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 9,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2792.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 91,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2743.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 42,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2751.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 50,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2714.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 13,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2776.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 75,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2778.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 77,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2712.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 11,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2732.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 31,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2717.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 16,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2738.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 37,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2718.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 17,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2747.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 46,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2787.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 86,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2752.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 51,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2719.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 18,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2720.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 19,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2809.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 108,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2757.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 56,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2722.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 21,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2734.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 33,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2770.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 69,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2771.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 70,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2802.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 101,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2705.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 4,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2783.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 82,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2779.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 78,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2774.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 73,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2765.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 64,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2768.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 67,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2728.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 27,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2775.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 74,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2711.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 10,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2805.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 104,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2807.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 106,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2784.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 83,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2704.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 3,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2713.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 12,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2761.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 60,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2799.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 98,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2759.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 58,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2745.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 44,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2716.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 15,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2703.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 2,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2753.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 52,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2708.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 7,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2701.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2772.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 71,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2706.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 5,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2740.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 39,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2814.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2843.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 30,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2828.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 15,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2848.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 35,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2841.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 28,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2842.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 29,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2887.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 74,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2837.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 24,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2882.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 69,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2847.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 34,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2818.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 5,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2885.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 72,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2845.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 32,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2832.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 19,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2886.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 73,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2866.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 53,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2869.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 56,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2821.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 8,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2853.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 40,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2900.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 87,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2852.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 39,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2836.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 23,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2890.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 77,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2835.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 22,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2826.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 13,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2880.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 67,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2899.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 86,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2870.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 57,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2855.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 42,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2873.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 60,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2863.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 50,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2876.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 63,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2849.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 36,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2824.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 11,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2856.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 43,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2884.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 71,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2819.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 6,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2896.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 83,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2862.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 49,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2822.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 9,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2898.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 85,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2817.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 4,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2854.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 41,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2858.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 45,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2851.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 38,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2857.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 44,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2861.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 48,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2815.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 2,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2881.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 68,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2834.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 21,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2901.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 88,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2895.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 82,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2864.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 51,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2893.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 80,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2859.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 46,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2872.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 59,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2831.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 18,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2892.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 79,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2897.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 84,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2867.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 54,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2833.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 20,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2813.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2830.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 17,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2823.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 10,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2865.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 52,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2879.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 66,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2877.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 64,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2860.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 47,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2850.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 37,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2878.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 65,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2844.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 31,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2883.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 70,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2840.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 27,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2871.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 58,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2888.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 75,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2891.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 78,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2839.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 26,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2868.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 55,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2902.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 89,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2894.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 81,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2838.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 25,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2875.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 62,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2816.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 3,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2820.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 7,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2846.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 33,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2827.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 14,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2874.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 61,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2889.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 76,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2825.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 12,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2829.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 16,
+          "title": "DERIVED\\SECONDARY\\REFORMATTED\\AVERAGE"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2634.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2639.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2697.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 64,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2651.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2655.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2694.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 61,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2649.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2647.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2695.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 62,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2691.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 58,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2699.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 66,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2640.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2671.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 38,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2635.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2652.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2689.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 56,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2675.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 42,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2638.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2666.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 33,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2673.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 40,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2656.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2659.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2672.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 39,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2662.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2685.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 52,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2641.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2674.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 41,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2668.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 35,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2665.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 32,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2645.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2680.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 47,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2650.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2660.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 27,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2688.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 55,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2692.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 59,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2644.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2633.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2681.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 48,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2693.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 60,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2663.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2664.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 31,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2637.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2636.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2646.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2667.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 34,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2684.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 51,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2658.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2661.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2648.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2679.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 46,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2686.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 53,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2642.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2677.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 44,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2657.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2700.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 67,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2670.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 37,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2696.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 63,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2676.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 43,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2682.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 49,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2669.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 36,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2678.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 45,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2683.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 50,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2687.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 54,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2643.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2690.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 57,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2654.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2653.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2698.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 65,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2599.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2622.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 24,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2625.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 27,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2607.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 9,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2608.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 10,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2610.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 12,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2626.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 28,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2611.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 13,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2627.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 29,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2609.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 11,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2631.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 33,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2624.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 26,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2606.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 8,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2628.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 30,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2604.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 6,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2621.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 23,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2632.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 34,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2630.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 32,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2617.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 19,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2616.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 18,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2613.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 15,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2618.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 20,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2602.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 4,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2619.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 21,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2614.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 16,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2603.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 5,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2615.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 17,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2605.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 7,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2600.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2620.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 22,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2597.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2623.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 25,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2601.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 3,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2612.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 14,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2629.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 31,
+          "title": "ORIGINAL\\PRIMARY\\AXIAL"
+        }
+      ]
+    },
+    {
+      "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2593.0",
+      "modality": {
+        "system": "http://dicom.nema.org/resources/ontology/DCM",
+        "code": "CT",
+        "display": "CT"
+      },
+      "instance": [
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2595.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 2,
+          "title": "ORIGINAL\\PRIMARY\\LOCALIZER"
+        },
+        {
+          "uid": "1.3.6.1.4.1.5962.99.1.1761388472.1291962045.1616669124536.2590.0",
+          "sopClass": {
+            "system": "urn:ietf:rfc:3986",
+            "code": "1.2.840.10008.5.1.4.1.1.2"
+          },
+          "number": 1,
+          "title": "ORIGINAL\\PRIMARY\\LOCALIZER"
+        }
+      ]
+    }
+  ]
+}

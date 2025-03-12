@@ -1,0 +1,31 @@
+{
+  "resourceType": "Patient",
+  "id": "MRN-0690194671",
+  "identifier": [
+    {
+      "use": "usual",
+      "type": {
+        "coding": [
+          {
+            "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+            "code": "MR",
+            "display": "Medical Record number"
+          }
+        ]
+      },
+      "system": "DCM4CHEE.947BFF2C.null",
+      "value": "23092401"
+    }
+  ],
+  "name": [
+    {
+      "use": "usual",
+      "text": "IHE IRM",
+      "family": "IHE",
+      "given": [
+        "IRM"
+      ]
+    }
+  ],
+  "gender": "male"
+}
